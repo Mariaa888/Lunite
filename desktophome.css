@@ -609,12 +609,12 @@ object-fit:cover;
 .navbar {
     gap: 1em;
     margin-top: 0.3em;}
-    .middle-section{
+.middle-section{
     align-items: center;
     justify-content: center;
     display: flex;
     margin-right:auto;
-        margin-left: 2em; 
+    margin-left: 2em; 
     }
 .main-content{
       display: flex;
