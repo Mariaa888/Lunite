@@ -326,9 +326,10 @@ html,body {
     width: 18vw;
     height: 2vh;
 }
-/*.right-section {
-    padding-right: 2%;
-}*/
+.right-section {
+   margin-top:-2vw;
+    margin-left:1vw;
+}
 .sign-up {
     font-size: 14px;
 }
