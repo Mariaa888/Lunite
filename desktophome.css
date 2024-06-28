@@ -304,7 +304,7 @@ footer {
   @media(max-width:600px){
 html,body {
     background-color: #F5F5F5;
-    height: 100%;
+    height: auto;
     overflow-x:hidden;
     width: 100%;
     margin: 0;
@@ -349,7 +349,7 @@ html,body {
     text-align: center;
 }
 .search button {
-    margin-left:-7.1vw;
+    margin-left:-10.1vw;
     padding-top: 0.3em;
  }
 .search-input{
