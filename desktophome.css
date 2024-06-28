@@ -733,7 +733,7 @@ footer {
         justify-content: center;
         display: flex;
         margin-right: auto;
-        margin-left: 2em;
+        margin-left: 3wv;
     }
 
     .main-content {
@@ -748,7 +748,7 @@ footer {
         height: 34px;
         text-align: center;
         margin-top: -4.2em;
-        margin-left: 9vw;
+        margin-left: 17vw;
         margin-right: 4vw;
     }
 
