@@ -606,6 +606,9 @@ object-fit:cover;
     width: 118px;
     height: 30px;
 }
+    .right-section {
+   margin-top:-3vw;
+}
 .navbar {
     gap: 1em;
     margin-top: 0.3em;}
@@ -635,8 +638,8 @@ justify-content: center;
     padding-top: 0.3em;
         }
 .Welcome{
-font-size: 25px;
-    width: 470px;
+ width: 80%;
+font-size:  1.25em;
     position: relative;
     color: white;
     font-weight: bold;
