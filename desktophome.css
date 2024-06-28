@@ -723,7 +723,7 @@ footer {
     }
 
     .right-section {
-        margin-top: 2vw;
+        margin-top: 4vw;
     }
 
     .navbar {
@@ -761,7 +761,7 @@ footer {
     }
 
     .Welcome {
-        width: 80%;
+        width: 60%;
         font-size: 1.25em;
         position: relative;
         color: white;
