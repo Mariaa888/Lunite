@@ -79,8 +79,7 @@
     border: none;
     background: transparent;
          }
-.Welcome {
-font-size: 25px;
+.Welcome {  
     width: 470px;
     margin-left: 2%;
     position: relative;
@@ -359,14 +358,14 @@ html,body {
     padding-left: 0.2em;
 }
 .Welcome{
-    font-size: 3vw;
-        width: 80%;
+    font-size: 4vw;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
 }
  .shopnow{
      margin-left:1vw;
- font-size: 2vw;
+ font-size: 3vw;
  }
 .bi-arrow-right {
        transform: translateX(-50px);
