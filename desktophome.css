@@ -438,7 +438,7 @@ height: 130px;
 
   }
 .card1 {
-    margin-right: 5vw;
+    margin-right: 4vw;
 }
  .card4{
 margin-right: 5vw;
@@ -454,8 +454,8 @@ margin-right: 5vw;
      font-size: 20px;
     margin-bottom: -2vw;
         
- }.card2 {
-    margin-right: 2vw;
+ }.card3 {
+   margin-left: -2vw
 }
 .card5{
     padding-right: 11vw;
@@ -553,7 +553,7 @@ font-size: 3vw;
 .first-section{
     justify-content: space-between;
     display: inline-flex;
-    gap: 9em;
+    gap: 9vw;
  }
 .footerlogo{
         padding-top: 30px;
@@ -573,7 +573,7 @@ font-size: 3vw;
     opacity: 0;
  }
  .second-section {
-     padding-left: 1vw;
+     margin-left: 1vw;
      display: flex;
 }
 .second-section ul {
