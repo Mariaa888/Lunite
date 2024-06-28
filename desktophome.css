@@ -1,7 +1,8 @@
 .background {
     background-repeat: no-repeat;
-    position:relative;
-    }
+    position: relative;
+}
+
 .nav {
     width: 100vw;
     height: 20%;
@@ -9,77 +10,89 @@
     flex: row;
     padding-top: 10px;
     justify-content: space-between;
-        }
+}
+
 .logo {
     cursor: pointer;
     margin-left: 3%;
     text-align: left;
-    }      
+}
+
 .right-section {
     flex: 1;
     text-align: right;
     padding-right: 3%;
-  } 
+}
+
 .navbar {
     display: flex;
     justify-content: flex-end;
     padding-right: 3%;
-}   
+}
+
 .navbar li {
     font-family: "Montaga", serif;
     font-weight: 400;
     list-style: none;
-   }
+}
+
 .signup {
     background-color: #C39E9E;
     border: none;
     border-radius: 20px;
     color: black;
     padding: 0.3vw 1.6vw;
-    }
+}
+
 .sign-up {
     color: black;
-    }
+}
+
 .login {
     color: #f6f6f6;
     font-size: 2.3;
-    }
+}
+
 .navbar a {
     text-decoration: none;
-    }
+}
+
 .search {
-    margin-top: -22px;
+    margin-top: -30px;
     border-radius: 40px;
     background-color: #f6f6f6;
     border-color: black;
     border-style: solid;
     border-width: 1px;
     align-items: center;
-    display: flex;  
+    display: flex;
     flex: row;
-    margin-left: -5.3em;
-    position:absolute;
-    }
+    position: absolute;
+}
+
 .search-input {
     border-style: none;
     border: none;
     background: transparent;
     margin-left: 0.2em;
-         }
+}
+
 .search-input::placeholder {
     font-style: italic;
     padding-left: 12px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
-         }
+}
+
 .search button {
     width: 20px;
     height: 40px;
     border: none;
     background: transparent;
-         }
-.Welcome {  
-    font:1.5em;
+}
+
+.Welcome {
+    font: 1.5em;
     margin-left: 2%;
     position: relative;
     color: white;
@@ -87,33 +100,34 @@
     text-align: center;
     text-shadow: 0 5px 4px rgb(0, 0, 0, 25%);
     font-family: "Inter", sans-serif;
- }
- .shopnow {
-     background-color: rgba(255, 255, 255, 0.57);
-     color: black;
-     font-style: normal;
-     font-family: "Montaga", serif;
-     border: none;
-     border-radius: 50px;
-     padding: 2vw 5vw;
-     display: inline-block;
-     box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
-     text-align: center;
-     transition: all 0.2s ease-in-out;
-   }
+}
+
+.shopnow {
+    background-color: rgba(255, 255, 255, 0.57);
+    color: black;
+    font-style: normal;
+    font-family: "Montaga", serif;
+    border: none;
+    border-radius: 50px;
+    padding: 2vw 5vw;
+    display: inline-block;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
 
 .headertext {
     background-color: rgb(183, 152, 152, 37%);
     margin-top: 6em;
     align-items: center;
-   
-  }
+
+}
 
 .header-text {
     font-family: "Montaga", serif;
     margin-top: -1em;
     transform: translateY(-100px);
-        animation: comeFromTop 1s ease-in-out forwards;
+    animation: comeFromTop 1s ease-in-out forwards;
 }
 
 .catogires {
@@ -123,7 +137,7 @@
     max-width: 100%;
     gap: 1em;
 
-} 
+}
 
 .Sunglass,
 .Eyglass {
@@ -133,16 +147,22 @@
     display: block;
     justify-content: center;
 }
+
 .sunglassimage {
     padding-top: 1.3em;
-align-items: center;}
-.eyeglassimage{
+    align-items: center;
+}
+
+.eyeglassimage {
     margin-top: 0.3em;
     align-items: center;
 }
-.sunglasstext,.eyeglasstext {
+
+.sunglasstext,
+.eyeglasstext {
     text-align: center;
 }
+
 .line {
     margin-top: 20px;
     border-top: 1px solid #7F807F;
@@ -150,32 +170,38 @@ align-items: center;}
     margin-left: 3em;
     justify-content: center;
 }
+
 .best-sellers {
-      font-family: "Montaga", serif;
-      font-weight: 400;
-      font-style: normal;
-      margin-top: 0.3em;
-   text-align: center;
-  }
-.cards{
-      padding-top: 30px;
-      display:flex;
-      justify-content: center;
-      flex-direction: row;
-    }
-.img {
-      position: absolute;
-      transform: translate(-50%,-50%);
-  }
- .photo1 .photo1after {      
-       border-radius: 10px;
-       box-shadow: 0 5px 10px rgb(0, 0, 0, 25%);
+    font-family: "Montaga", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0.3em;
+    text-align: center;
 }
-.img img{
+
+.cards {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.img {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.photo1 .photo1after {
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 25%);
+}
+
+.img img {
     position: absolute;
     transition: 0.3s;
 }
-.seemore { 
+
+.seemore {
     background-color: rgba(255, 255, 255, 57%);
     color: black;
     font-style: normal;
@@ -184,28 +210,33 @@ align-items: center;}
     border-radius: 50px;
     box-shadow: 0px 0px 20px rgb(0, 0, 0, 25%);
 
-         }
+}
+
 .first {
-        display: flex;
-        flex-direction: row;
-    }
+    display: flex;
+    flex-direction: row;
+}
+
 .virtual-header {
     background-color: rgb(183, 152, 152, 37%);
-    }
+}
+
 .vatural-text {
-   margin-left: -2px;
-   width: 100%;
-   font-family: "Montaga", serif;
+    margin-left: -2px;
+    width: 100%;
+    font-family: "Montaga", serif;
     font-style: normal;
-           }
+}
+
 .vatural-paragraph {
-   text-align: center;
-   font-family: "Montaga", serif;
-   font-style: normal;
-   font-weight: 400;   
-  }
+    text-align: center;
+    font-family: "Montaga", serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
 .trynow {
-     background-color: rgba(255, 255, 255, 0.57);
+    background-color: rgba(255, 255, 255, 0.57);
     color: black;
     font-style: normal;
     font-family: "Montaga", serif;
@@ -216,61 +247,71 @@ align-items: center;}
     box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
     justify-content: center;
     transition: all 0.2s ease-in-out;
-                                   }
+}
+
 .aboutus-section {
-  margin-top: 20%;
-  padding-bottom: 50px;
-   }                         
+    margin-top: 20%;
+    padding-bottom: 50px;
+}
+
 .aboutusimg {
-   margin-left: -40px;
-    }
+    margin-left: -40px;
+}
+
 .seconed {
     display: flex;
-        flex-direction: row;
-  }                              
-.aboutus-header {
-background-color: rgb(183, 152, 152, 37%);
-justify-content: center;
+    flex-direction: row;
 }
+
+.aboutus-header {
+    background-color: rgb(183, 152, 152, 37%);
+    justify-content: center;
+}
+
 .aboutus-text {
-     margin-left: -4em;
+    margin-left: -4em;
     width: 100%;
     font-family: "Montaga", serif;
     font-style: normal;
     justify-content: center;
     display: block;
-                  }
-  .aboutus-paragraph {
-      font-family: "Montaga", serif;
-      font-style: normal;    
-      width: 100%;
-      text-align: start;
-      display: block;
-  }
-  .seemore2 {
-        background-color: rgba(255, 255, 255, 0.57);
-            color: black;
-            font-style: normal;
-            font-family: "Montaga", serif;
-            border: none;
-            border-radius: 50px;
-            padding: 10px 20px;
-            display: flex;
-            box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
-            justify-content: center;
-            transition: all 0.2s ease-in-out;
-  }
+}
+
+.aboutus-paragraph {
+    font-family: "Montaga", serif;
+    font-style: normal;
+    width: 100%;
+    text-align: start;
+    display: block;
+}
+
+.seemore2 {
+    background-color: rgba(255, 255, 255, 0.57);
+    color: black;
+    font-style: normal;
+    font-family: "Montaga", serif;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    display: flex;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+}
+
 footer {
     margin-top: 40px;
     bottom: 0;
     background-color: #DDC4C4;
-    width:max-width;
+    width: max-width;
     height: 364px;
     border-radius: 30px 30px 0 0;
 }
+
 .footerlogo {
     cursor: pointer;
 }
+
 .footerline {
     width: 1px;
     height: 362px;
@@ -278,16 +319,19 @@ footer {
     margin-top: -321px;
 
 }
+
 .second-section {
     display: flex;
     flex-direction: row;
 
 }
+
 .second-section ul {
     font-family: "Montaga", serif;
     font-style: normal;
 
 }
+
 .second-section li {
     list-style: none;
     padding-top: 10px;
@@ -296,852 +340,960 @@ footer {
     font-family: "Montaga", serif;
     font-style: normal;
 }
-  @media(max-width:600px){
-html,body {
-    background-color: #F5F5F5;
-    overflow-x:hidden;
-    margin: 0;
-    padding: 0;
-     width: max-content;
-     height: fit-content;
-}
 
-.background{
-    background-image: url(images/Rectangle\ 2.png);
-    height: 25em;
-    width: 100%;
-    background-size: cover;
-    object-fit:cover ;
-}
-.left-section {
-    margin-left: 2%;
-    width: 50vw;
-}
-.logo {
-    width: 18vw;
-    height: 2vh;
-}
-.right-section {
-   margin-top:-3vw;
-}
-.sign-up {
-    font-size: 0.875em;
-}
-.login {
-    margin-left: auto;
-                 }
-.main-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 80px;
-}
-.search {
-    width: 169px;
-    height: 19px;
-    flex: 1;
-    text-align: center;
-}
-.search button {
-    margin-left:-10.1vw;
-    padding-top: 0.3em;
- }
-.search-input{
-    font-size: 13.2px;
-    height: 12px;
-    padding-left: 0.1em;
-}
-.Welcome{
- width: 80%;
-font-size:  1.25em;
-    margin-left:auto;
-     margin-right:auto;
-}
- .shopnow{
- font-size: 1.25em;
- }
-.bi-arrow-right {
-       transform: translateX(-50px);
-       opacity: 0;
-       width: 30px;
-       position: absolute;
-   }
-.cursor {
-       margin-bottom: -3.6em;
-       margin-left: -2.4em;
-   }
-.buybycatogires-section {
-    margin-top: -5em;
-    align-items: center;
-         }
-.headertext{
-    height: 19px;
-    width: 20em;
-   margin-left: auto;
-   margin-right: auto;
-   }
-.header-text{
-    font-size: 30px;
-    text-align: center;
-   }
-.catogires {
-max-width: 100%;
-justify-content: center;
-margin-left: auto;
-margin-right: auto;
-width: 15vw;
-height: 130px;
-   }
-.sunglasstext,.eyeglasstext{
+@media(max-width:600px) {
+
+    html,
+    body {
+        background-color: #F5F5F5;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        width: max-content;
+        height: fit-content;
+    }
+
+    .background {
+        background-image: url(images/Rectangle\ 2.png);
+        height: 25em;
+        width: 100%;
+        background-size: cover;
+        object-fit: cover;
+    }
+
+    .left-section {
+        margin-left: 2%;
+        width: 50vw;
+    }
+
+    .logo {
+        width: 18vw;
+        height: 2vh;
+    }
+
+    .right-section {
+        margin-top: -3vw;
+    }
+
+    .sign-up {
+        font-size: 0.875em;
+    }
+
+    .login {
+        margin-left: auto;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+    .search {
+        width: 169px;
+        height: 19px;
+        flex: 1;
+        text-align: center;
+        margin-left: -5.3em;
+    }
+
+    .search button {
+        margin-left: -10.1vw;
+        padding-top: 0.3em;
+    }
+
+    .search-input {
+        font-size: 13.2px;
+        height: 12px;
+        padding-left: 0.1em;
+    }
+
+    .Welcome {
+        width: 80%;
+        font-size: 1.25em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .shopnow {
+        font-size: 1.25em;
+    }
+
+    .bi-arrow-right {
+        transform: translateX(-50px);
+        opacity: 0;
+        width: 30px;
+        position: absolute;
+    }
+
+    .cursor {
+        margin-bottom: -3.6em;
+        margin-left: -2.4em;
+    }
+
+    .buybycatogires-section {
+        margin-top: -5em;
+        align-items: center;
+    }
+
+    .headertext {
+        height: 19px;
+        width: 20em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header-text {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .catogires {
+        max-width: 100%;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 15vw;
+        height: 130px;
+    }
+
+    .sunglasstext,
+    .eyeglasstext {
         font-size: 20px;
-}
-.sunglasstext{
-    margin-top: -0.6em;
-}
-.eyeglasstext{
-    margin-top: 0.5em;
-}
-.sunglassimage {
-    height: 86.24px;
-   width: 140px;
-        }
-.eyeglassimage{
-  width: 140px;
-  margin-top: 2em;
-        }
-.line{
-    margin-left: auto;
-    margin-right: auto;
-        }
-.best-sellers{
-            font-size: 30px;
-        }      
-.seller-boxes{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            margin-left: -10vw;
-        }
-.cards {
-    margin-top: -1em;
-    margin-bottom: 2em;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 20vw;
-  }
-.card1 {
-    margin-right: 3vw;
-}
- .card4{
-margin-right: 5vw;
- }
+    }
 
-.photo1,
-.photo1after {
-    width: 20vw;
-    height: 20vw;
-    border-radius: 10px;
-}
- .name {
-    margin-top: 20vw;
-     font-size: 20px;
-    margin-bottom: -2vw;
-        
- }.card3{
-   margin-left: -1vw
-}
-.card6{
-      margin-left: -6vw;
-}
-.card5{
-    padding-right: 5vw;
-}
-.seemore{
-    font-size: 3vw;
+    .sunglasstext {
+        margin-top: -0.6em;
+    }
+
+    .eyeglasstext {
+        margin-top: 0.5em;
+    }
+
+    .sunglassimage {
+        height: 86.24px;
+        width: 140px;
+    }
+
+    .eyeglassimage {
+        width: 140px;
+        margin-top: 2em;
+    }
+
+    .line {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .best-sellers {
+        font-size: 30px;
+    }
+
+    .seller-boxes {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: -10vw;
+    }
+
+    .cards {
+        margin-top: -1em;
+        margin-bottom: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 20vw;
+    }
+
+    .card1 {
+        margin-right: 3vw;
+    }
+
+    .card4 {
+        margin-right: 5vw;
+    }
+
+    .photo1,
+    .photo1after {
+        width: 20vw;
+        height: 20vw;
+        border-radius: 10px;
+    }
+
+    .name {
+        margin-top: 20vw;
+        font-size: 20px;
+        margin-bottom: -2vw;
+
+    }
+
+    .card3 {
+        margin-left: -1vw
+    }
+
+    .card6 {
+        margin-left: -6vw;
+    }
+
+    .card5 {
+        padding-right: 5vw;
+    }
+
+    .seemore {
+        font-size: 3vw;
         padding: 0.5vw 2vw;
         margin-left: 40vw;
         margin-right: auto;
         display: flex;
         padding-left: 2vw;
-}
-.bi-arrow-right {
-    opacity: 0;
-    width: 40px;
-    position: absolute;
-}
-.virtual-img{
-    width:50vw;
-    height: 50vw;
-}
-.virtual-header{
+    }
+
+    .bi-arrow-right {
+        opacity: 0;
+        width: 40px;
+        position: absolute;
+    }
+
+    .virtual-img {
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .virtual-header {
         margin-bottom: -9vw;
-                height: 4vw;
-                width: 70vw;
-                margin-left: 7em;
-                margin-top: 20px;    
-}
-.vatural-text{
-    font-size: 6.6vw;
+        height: 4vw;
+        width: 70vw;
+        margin-left: 7em;
+        margin-top: 20px;
+    }
+
+    .vatural-text {
+        font-size: 6.6vw;
         margin-top: 2.3vw;
         height: 30px;
-}
-.vatural-paragraph{
-    font-size: 3vw;
-    margin-top: -30vw;
-margin-left: 13vw;
-margin-bottom: 1vw;
-margin-right: auto;
-width: 100%;
-}
-.bi-arrow-right {
-     transform: translateX(-50px);
-     opacity: 0;
-     width: 40px;
-     position: absolute;
- }
- .trynow {
-     font-size: 3vw;
-     padding: 0.5vw 2vw;
-     margin-left: 50vw;
-     margin-right: auto;
-     display: flex;
-     padding-left: 2vw;
- }
- .aboutusimg{
-    width:70vw;
-    height:70vw;
-    margin-left: -12vw;
- }
- .aboutus-header{
- margin-bottom: -15vw;
-height: 4vw;
-    width: 60vw;
-margin-left: 17vw ;
- }
-.aboutus-text{
-    font-size: 6.6vw;
-    margin-top: 8.8vw;
-    height: 30px; 
-} 
-.aboutus-paragraph{
-    font-size: 3vw;
+    }
+
+    .vatural-paragraph {
+        font-size: 3vw;
+        margin-top: -30vw;
+        margin-left: 13vw;
+        margin-bottom: 1vw;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .bi-arrow-right {
+        transform: translateX(-50px);
+        opacity: 0;
+        width: 40px;
+        position: absolute;
+    }
+
+    .trynow {
+        font-size: 3vw;
+        padding: 0.5vw 2vw;
+        margin-left: 50vw;
+        margin-right: auto;
+        display: flex;
+        padding-left: 2vw;
+    }
+
+    .aboutusimg {
+        width: 70vw;
+        height: 70vw;
+        margin-left: -12vw;
+    }
+
+    .aboutus-header {
+        margin-bottom: -15vw;
+        height: 4vw;
+        width: 60vw;
+        margin-left: 17vw;
+    }
+
+    .aboutus-text {
+        font-size: 6.6vw;
+        margin-top: 8.8vw;
+        height: 30px;
+    }
+
+    .aboutus-paragraph {
+        font-size: 3vw;
         margin-top: -50vw;
         margin-left: 40vw;
-        margin-bottom: 1em;     
-}
- .seemore2 {
-font-size: 3vw;
-    padding: 0.5vw 2vw;
-    margin-left: 50vw;
-    margin-right: auto;
-    display: flex;
-    padding-left: 2vw;
- }
- footer{
-    height: auto;
-     object-fit:cover ;
- }
-.first-section{
-    justify-content: space-between;
-    display: inline-flex;
-    gap: 9vw;
- }
-.footerlogo{
-        padding-top: 30px;
-            padding-left: 20px;
-            width: 100px;
-            height: 28px;
- }
- .social{
-  margin-top: 40px;
-margin-right: auto;
-    margin-left: 6vw;
- }
- .bi {
-     margin-right: 20px;
- }
- .footerline{
-    opacity: 0;
- }
- .second-section {
-     margin-left: 1vw;
-     display: flex;
-}
-.second-section ul {
-font-size: 18px;
-padding-right: 2em;}
-.second-section li {
-font-size: 10px;}
-.sun-glassli,
-.eyeglassli {
-    padding-left: 10px;
-}
-.allli {
-    padding-left: 20px
-}
-  }
-@media(min-width:601px){
- html,body {
-    background-color: #F5F5F5;
-    overflow-x:hidden;
-    margin: 0;
-    padding: 0;
-     width: max-content;
-     height: auto;
-}
-.background{
-background-image: url(images/Rectangle\ ipad.png);
-background-size: cover;
-height: 331px;
-width: 100%;
-object-fit:cover;
-}
-.left-section {
-    margin-left: 1%;
-    width: 10vw;
-}
-.logo{
-    width: 118px;
-    height: 30px;
-}
-    .right-section {
-   margin-top:-3vw;
-}
-.navbar {
-    gap: 1em;
-    margin-top: 0.3em;}
-.middle-section{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-right:auto;
-    margin-left: 2em; 
+        margin-bottom: 1em;
     }
-.main-content{
-      display: flex;
-   flex-direction: column;
-   align-items: center;
-justify-content: center;
-                }
-.search {
-    width: 293px;
-    height: 34px;
-    text-align: center;   
-    margin-top: -4.2em;
-    margin-left: 96%;
-    margin-right: 4em;
-        }
-.search button {
-    margin-left: 7em;
-    padding-top: 0.3em;
-        }
-.Welcome{
- width: 80%;
-font-size:  1.25em;
-    position: relative;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    text-shadow: 0 5px 4px rgb(0, 0, 0, 25%);
-    font-family: "Inter", sans-serif;
-    margin-top: 2em;
-}
-.shopnow {
-    margin-left: 2em;
-     font-size: 30px;
-    padding: 10px 20px;
-    padding-left: 30px;
-}
-.bi-arrow-right {
-     transform: translateX(-50px);
-     opacity: 0;
-     width: 30px;
-     position: absolute;
-}
-.cursor {
-     margin-bottom: -3.6em;
-     margin-left: -2.4em;
- }
- 
-.buybycatogires-section {
-     margin-top: -2em;
-     align-items: center;
- }
-.headertext {
-     height: 31px;
-     width: 602px;
-     margin-left: auto;
-     margin-right: auto;
- }
- .header-text {
-     font-size: 50px;
-     text-align: center;
- }
 
-.catogires {
-     max-width: 100%;
-     justify-content: center;
-     margin-left: auto;
-     margin-right: auto;
-     width: 259.57px;
-     height: 220.64px;
- }
- .sunglasstext,
- .eyeglasstext {
-        margin-top:1em;
-     font-size: 20px;
- }
- .sunglassimage {
-width: 160.19px;
-    height: 109.82px;
-    margin-top: 1em;
- }
-
- .eyeglassimage {
-    margin-top: 2em;
-    width: 170.19px;
-     height: 115.41px;
- }
-.line {
-    margin-left: auto;
-    margin-right: auto;
-}
-.best-sellers {
-    font-size: 80px;
-}
-.cards {
-    margin-bottom: 3em;
-    gap: 20vw;
-    margin-right: 13%;
-    margin-left: auto;
-   
-}
-.card1{
-    margin-left: auto;
-}
-
-.card3{
-margin-left: -2.7em;
-margin-right: auto;
-}
-.card4 {
-    padding-right: 1.3em;
-}
-.photo1 ,.photo1after {
-    width: 183.09px;
-    height: 184.36px;
-    border-radius: 30px;
-}
-
-.name {
-    font-size: 40px;
-    margin-top: 5em;
-    margin-right: auto;
-}
-
-.seemore {
-    font-size: 30px;
-    padding: 2px 15px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    padding-left: 15px;
-}
-.bi-arrow-right {
-    opacity: 0;
-    position: absolute;
-}
-.virtual-img {
-    width:40vw;
-    height: 50.18vw;
-    margin-left: -2em;
-}
-.virtual-header {
-    margin-bottom: -10.3vw;
-    height: 4.4vw;
-    width: 58vw;
-    margin-left: 33vw;
-    margin-top: 4vw;
-}
-.vatural-text {
-    font-size:8vw;
-    margin-top: 2.7vw;
-    height: 30px;
-}
-.vatural-paragraph {
-    font-size: 3.5vw;
-    margin-top: -35vw;
-    margin-left: 40vw;
-    margin-bottom: 1em;
-    width: 100%;
-    display: flex;
-}
-.bi-arrow-right {
-    opacity: 0;
-}
-.trynow {
-    font-size: 30px;
-    padding: 2px 15px;
-    margin-left: 50vw;
-    margin-right: auto;
-    display: flex;
-    padding-left: 15px;
-}
-.aboutus-section{
-    margin-top: 10em;
-}
-.aboutusimg {
-    width:96vw;
-        height: 40vw;}
-
-.aboutus-header {
-    margin-bottom: -12vw;
-    height: 4vw;
-    width: 46vw;
-    margin-left: 20vw;
-}
-
-.aboutus-text {
-    font-size: 6vw;
-    margin-top: 6vw;
-    height: 30px;
-    margin-left: -25vw;
-
-}
-.aboutus-paragraph {
-    margin-top: -25vw;
-    margin-left: 42.8vw;
-    margin-bottom: 1em;
-}
-
-.seemore2 {
-    font-size: 30px;
-    padding: 2px 15px;
-margin-left: 42vw;
-    margin-right: auto;
-    display: flex;
-    padding-left: 17px;
-}
-footer {
-    height: auto;
-}
-
-.first-section {
-    display: block;
-
-}
-
-.footerlogo {
-    padding-top: 30px;
-    padding-left: 40px;
-    width: 100px;
-    height: 28px;
-}
-
-.social {
-    margin-right: auto;
-    margin-top: 11em;
-    margin-left:6.667vw;
-}
-.bi {
-    margin-right: 20px;
-}
-
-.footerline {
-        width: 1px;
-            height: 268px;
-            background-color: rgba(217, 217, 217, 55%);
-            margin-left: 250px;
-            margin-top: -16em;
-}
-
-.second-section {
-justify-content: flex-end;
-padding-right: 1em;
-
-}
-
-.second-section ul {
-    font-size: 18px;
-    padding-right: 2em;
-    margin-top: -14em;
-}
-
-.second-section li {
-    font-size: 10px;
-}
-
-.sun-glassli,
-.eyeglassli {
-    padding-left: 10px;
-}
-
-.allli {
-    padding-left: 20px
-}
-}
-@media  (min-width:1024px){
-
-.main-content{
-      display: flex;
-   flex-direction: column;
-   align-items: center;
-justify-content: center;
-                }
-.search {
-    width: 293px;
-    height: 34px;
-    text-align: center;   
-    margin-top: -4.2em;
-    margin-left: 96%;
-    margin-right: 4em;
-        }
-.search button {
-    margin-left: 7em;
-    padding-top: 0.3em;
-        }
-.Welcome{
- width: 80%;
-font-size:  1.25em;
-    position: relative;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    text-shadow: 0 5px 4px rgb(0, 0, 0, 25%);
-    font-family: "Inter", sans-serif;
-    margin-top: 2em;
-}
-.shopnow {
-    margin-left: 2em;
-     font-size: 30px;
-    padding: 10px 20px;
-    padding-left: 30px;
-}
-    .cards {
-            margin-bottom: 3em;
-            gap: 8em;
-            margin-right: auto;
-        }
-    
-        .card1 {
-            margin-left: auto;
-        }
-    
-        .card3 {
-            margin-left: -2.7em;
-            margin-right: auto;
-        }
-    
-        .card4 {
-            padding-right: 1.3em;
-        }
-    
-        .photo1,
-        .photo1after {
-            width: 183.09px;
-            height: 184.36px;
-            border-radius: 30px;
-        }
-    
-        .name {
-            font-size: 40px;
-            margin-top: 5em;
-            margin-right: auto;
-        }
-
-.background{
-    background-size: cover;
-    height: 490px;
-    width: 100%;
-    object-fit: fill;
-
-    }
-        .search {
-            width: 293px;
-            height: 34px;
-            text-align: center;
-            margin-top: -9em;
-            margin-left: 96%;
-            margin-right: 4em;
-        }
-    .Welcome {
-    font-size: 70px;
-    width: 100%;
-    margin-top: 0.3em;
-    }
-        .img .photo1after:hover {
-            opacity: 0;
-            cursor: pointer;
-        }
-
-.virtual-img {
-            width:520.98px;
-            height: 720.51px;
-        }
-.virtual-header {
-    margin-bottom: -11.7vw;
-    height: 4vw;
-    width: 700px;
-    margin-left: 30em;
-    margin-top: 6vw;
-                }
-.vatural-text {
-    font-size: 7vw;
-    width: 100%;
-    margin-top: 5vw;
-                }
-           
-.shopnow , .seemore , .trynow ,.seemore2 {
-            font-size: 40px;
-            padding: 16px 40px;
-            display: inline;
-            padding-left: 60px;
-            box-shadow: 0 5px 4px rgb(0, 0, 0, 25%);
-            margin-top: 1em;
-            
-        }
-.trynow {
-    margin-left: 14em;
-                         }
-        .shopnow .bi-arrow-right {
-            transform: translateX(-50px);
-            opacity: 0;
-            width: 40px;
-            position: absolute;
-        }
-    
-        .bi-arrow-right {
-            padding: 6px;
-        }
-    
-        .shopnow:hover {
-            padding: 16px 60px;
-            transition: 0.19s;
-        }
-    
-        .shopnow:hover .bi-arrow-right {
-            opacity: 1;
-            transform: translateX(0);
-            position: absolute;
-        }
-                .cursor {
-                margin-top: -1.6em;
-                    margin-left: -3.4em;
-}
-.button{
-    display: flex;
-    margin-left: auto;
+    .seemore2 {
+        font-size: 3vw;
+        padding: 0.5vw 2vw;
+        margin-left: 50vw;
         margin-right: auto;
-}
-.seemore .bi-arrow-right {
+        display: flex;
+        padding-left: 2vw;
+    }
 
-    transform: translateX(-50px);
-    opacity: 0;
-    width: 40px;
-    position: absolute;
-}
+    footer {
+        height: auto;
+        object-fit: cover;
+    }
 
-.bi-arrow-right {
-    padding: 6px;
-}
+    .first-section {
+        justify-content: space-between;
+        display: inline-flex;
+        gap: 9vw;
+    }
 
-.seemore:hover {
-    padding: 16px 60px;
-    transition: 0.19s;
-}
+    .footerlogo {
+        padding-top: 30px;
+        padding-left: 20px;
+        width: 100px;
+        height: 28px;
+    }
 
-.seemore:hover .bi-arrow-right {
-    opacity: 1;
-    transform: translateX(0);
-    position: absolute;
+    .social {
+        margin-top: 40px;
+        margin-right: auto;
+        margin-left: 6vw;
+    }
 
-}
-.trynow .bi-arrow-right {
-    transform: translateX(-50px);
-    opacity: 0;
-    width: 40px;
-    position: absolute;
-}
+    .bi {
+        margin-right: 20px;
+    }
 
-.bi-arrow-right {
-    padding: 6px;
-}
+    .footerline {
+        opacity: 0;
+    }
 
-.trynow:hover {
-    padding: 16px 60px;
-    transition: 0.19s;
-}
+    .second-section {
+        margin-left: 1vw;
+        display: flex;
+    }
 
-.trynow:hover .bi-arrow-right {
-    opacity: 1;
-    transform: translateX(0);
-    position: absolute;
+    .second-section ul {
+        font-size: 18px;
+        padding-right: 2em;
+    }
 
-}
+    .second-section li {
+        font-size: 10px;
+    }
 
+    .sun-glassli,
+    .eyeglassli {
+        padding-left: 10px;
+    }
 
-.seemore2 .bi-arrow-right {
-    transform: translateX(-50px);
-    opacity: 0;
-    width: 40px;
-    position: absolute;
-}
-
-.bi-arrow-right {
-    padding: 6px;
-}
-
-.seemore2:hover {
-    padding: 16px 60px;
-    transition: 0.19s;
+    .allli {
+        padding-left: 20px
+    }
 }
 
-.seemore2:hover .bi-arrow-right {
-    opacity: 1;
-    transform: translateX(0);
-    position: absolute;
-}
-.vatural-paragraph{
-    font-size: 30px;
-    margin-top: -18.4em;
-    margin-left: 17em;
-    margin-bottom: 1em;
-    margin-right: 1%;
-   
-}
-.aboutus-section{
-    margin-top: 15em;
-}
-.aboutusimg {
-    width: 487px;
-    height:458px;
+@media(min-width:601px) {
+
+    html,
+    body {
+        background-color: #F5F5F5;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        width: max-content;
+        height: auto;
+    }
+
+    .background {
+        background-image: url(images/Rectangle\ ipad.png);
+        background-size: cover;
+        height: 331px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .left-section {
+        margin-left: 1%;
+        width: 10vw;
+    }
+
+    .logo {
+        width: 118px;
+        height: 30px;
+            margin-top: 1em;
+    }
+
+    .right-section {
+        margin-top: 2vw;
+    }
+
+    .navbar {
+        gap: 1em;
+        margin-top: 0.3em;
+    }
+
+    .middle-section {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-right: auto;
+        margin-left: 2em;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search {
+        width: 293px;
+        height: 34px;
+        text-align: center;
+        margin-top: -4.2em;
+        margin-left: 96%;
+        margin-right: 4em;
+    }
+
+    .search button {
+        margin-left: 7em;
+        padding-top: 0.3em;
+    }
+
+    .Welcome {
+        width: 80%;
+        font-size: 1.25em;
+        position: relative;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        text-shadow: 0 5px 4px rgb(0, 0, 0, 25%);
+        font-family: "Inter", sans-serif;
+        margin-top: 2em;
+    }
+
+    .shopnow {
+        margin-left: 2em;
+        font-size: 30px;
+        padding: 10px 20px;
+        padding-left: 30px;
+    }
+
+    .bi-arrow-right {
+        transform: translateX(-50px);
+        opacity: 0;
+        width: 30px;
+        position: absolute;
+    }
+
+    .cursor {
+        margin-bottom: -3.6em;
+        margin-left: -2.4em;
+    }
+    .buybycatogires-section {
+        margin-top: -2em;
+        align-items: center;
+    }
+
+    .headertext {
+        height: 31px;
+        width: 602px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header-text {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .catogires {
+        max-width: 100%;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 259.57px;
+        height: 220.64px;
+    }
+
+    .sunglasstext,
+    .eyeglasstext {
+        margin-top: 1em;
+        font-size: 20px;
+    }
+
+    .sunglassimage {
+        width: 160.19px;
+        height: 109.82px;
+        margin-top: 1em;
+    }
+
+    .eyeglassimage {
+        margin-top: 2em;
+        width: 170.19px;
+        height: 115.41px;
+    }
+
+    .line {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .best-sellers {
+        font-size: 80px;
+    }
+
+    .cards {
+        margin-bottom: 3em;
+        gap: 20vw;
+        margin-right: 13%;
+        margin-left: auto;
+
+    }
+
+    .card1 {
+        margin-left: auto;
+    }
+
+    .card3 {
+        margin-left: -2.7em;
+        margin-right: auto;
+    }
+
+    .card4 {
+        padding-right: 1.3em;
+    }
+
+    .photo1,
+    .photo1after {
+        width: 183.09px;
+        height: 184.36px;
+        border-radius: 30px;
+    }
+
+    .name {
+        font-size: 40px;
+        margin-top: 5em;
+        margin-right: auto;
+    }
+
+    .seemore {
+        font-size: 30px;
+        padding: 2px 15px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        padding-left: 15px;
+    }
+
+    .bi-arrow-right {
+        opacity: 0;
+        position: absolute;
+    }
+
+    .virtual-img {
+        width: 40vw;
+        height: 50.18vw;
+        margin-left: -2em;
+    }
+
+    .virtual-header {
+        margin-bottom: -10.3vw;
+        height: 4.4vw;
+        width: 58vw;
+        margin-left: 33vw;
+        margin-top: 4vw;
+    }
+
+    .vatural-text {
+        font-size: 8vw;
+        margin-top: 2.7vw;
+        height: 30px;
+    }
+
+    .vatural-paragraph {
+        font-size: 3.5vw;
+        margin-top: -35vw;
+        margin-left: 40vw;
+        margin-bottom: 1em;
+        width: 100%;
+        display: flex;
+    }
+
+    .bi-arrow-right {
+        opacity: 0;
+    }
+
+    .trynow {
+        font-size: 30px;
+        padding: 2px 15px;
+        margin-left: 50vw;
+        margin-right: auto;
+        display: flex;
+        padding-left: 15px;
+    }
+
+    .aboutus-section {
+        margin-top: 10em;
+    }
+
+    .aboutusimg {
+        width: 96vw;
+        height: 40vw;
+    }
+
+    .aboutus-header {
+        margin-bottom: -12vw;
+        height: 4vw;
+        width: 46vw;
+        margin-left: 20vw;
+    }
+
+    .aboutus-text {
+        font-size: 6vw;
+        margin-top: 6vw;
+        height: 30px;
+        margin-left: -25vw;
+
+    }
+
+    .aboutus-paragraph {
+        margin-top: -25vw;
+        margin-left: 42.8vw;
+        margin-bottom: 1em;
+    }
+
+    .seemore2 {
+        font-size: 30px;
+        padding: 2px 15px;
+        margin-left: 42vw;
+        margin-right: auto;
+        display: flex;
+        padding-left: 17px;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .first-section {
+        display: block;
+
+    }
+
+    .footerlogo {
+        padding-top: 30px;
+        padding-left: 40px;
+        width: 100px;
+        height: 28px;
+    }
+
+    .social {
+        margin-right: auto;
+        margin-top: 11em;
+        margin-left: 6.667vw;
+    }
+
+    .bi {
+        margin-right: 20px;
+    }
+
+    .footerline {
+        width: 1px;
+        height: 268px;
+        background-color: rgba(217, 217, 217, 55%);
+        margin-left: 250px;
+        margin-top: -16em;
+    }
+
+    .second-section {
+        justify-content: flex-end;
+        padding-right: 1em;
+
+    }
+
+    .second-section ul {
+        font-size: 18px;
+        padding-right: 2em;
+        margin-top: -14em;
+    }
+
+    .second-section li {
+        font-size: 10px;
+    }
+
+    .sun-glassli,
+    .eyeglassli {
+        padding-left: 10px;
+    }
+
+    .allli {
+        padding-left: 20px
+    }
 }
 
-.aboutus-header {
-    margin-bottom: -7em;
-    height: 56px;
-    width: 595px;
-    margin-left: 10em;
+@media (min-width:1024px) {
+.buybycatogires-section{
+    flex-direction: column;
+        align-items: center;
+        justify-content: center;
 }
+.line{
+margin-left: 10em;
+}
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
-.aboutus-text {
-    font-size: 100px;
-    margin-top: 0.2em;
-    height: 30px;
-    margin-left: -2.2em;
+    .search {
+    margin-left: 70em;
+   width: 40vw;
+        height: 34px;
+        text-align: center;
+        margin-top: -8.2em;
+        margin-right: 4em;
+    }
 
-}
+    .search button {
+        margin-left: 24vw;
+        padding-top: 0.3em;
+    }
 
-.aboutus-paragraph {
-font-size: 30px;
-    margin-top: -9.4em;
-    margin-left: 11em;
-    margin-bottom: 1em;
-    margin-right: 1%;
+    .shopnow {
+        margin-left: 2em;
+        font-size: 30px;
+        padding: 10px 20px;
+        padding-left: 30px;
+    }
+
+    .cards {
+        margin-bottom: 3em;
+        gap: 8em;
+        margin-right: auto;
+        margin-right: auto;
+    
+    }
+    .card1 {
+        margin-left: auto;
+    }
+
+    .card3 {
+        margin-left: -2.7em;
+        margin-right: auto;
+    }
+
+    .card4 {
+        padding-right: 1.3em;
+    }
+
+    .photo1,
+    .photo1after {
+        width: 183.09px;
+        height: 184.36px;
+        border-radius: 30px;
+    }
+
+    .name {
+        font-size: 40px;
+        margin-top: 5em;
+        margin-right: auto;
+    }
+
+    .background {
+        background-size: cover;
+        height: 490px;
+        width: 100%;
+        object-fit: fill;
+
+    }
+    .Welcome {
+        font-size: 70px;
+        width: 80%;
+        margin-top: 0.3em;
+        margin-left: -3em;
+    }
+
+    .img .photo1after:hover {
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .virtual-img {
+        width: 520.98px;
+        height: 720.51px;
+    }
+
+    .virtual-header {
+        margin-bottom: -11.7vw;
+        height: 4vw;
+        width: 700px;
+        margin-left: 30em;
+        margin-top: 6vw;
+    }
+
+    .vatural-text {
+        font-size: 7vw;
+        width: 100%;
+        margin-top: 5vw;
+    }
+
+    .shopnow,
+    .seemore,
+    .trynow,
+    .seemore2 {
+        font-size: 40px;
+        padding: 16px 40px;
+        display: inline;
+        padding-left: 60px;
+        box-shadow: 0 5px 4px rgb(0, 0, 0, 25%);
+        margin-top: 1em;
+
+    }
+.shopnow{
+    margin-left: -4em;
 }
-.seemore2{
-    margin-left: 11em;
-}
+    .trynow {
+        margin-left: 14em;
+    }
+
+    .shopnow .bi-arrow-right {
+        transform: translateX(-50px);
+        opacity: 0;
+        width: 40px;
+        position: absolute;
+    }
+
+    .bi-arrow-right {
+        padding: 6px;
+    }
+
+    .shopnow:hover {
+        padding: 16px 60px;
+        transition: 0.19s;
+    }
+
+    .shopnow:hover .bi-arrow-right {
+        opacity: 1;
+        transform: translateX(0);
+        position: absolute;
+    }
+
+    .cursor {
+        margin-top: -1.6em;
+        margin-left: -3.4em;
+    }
+
+    .button {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .seemore .bi-arrow-right {
+
+        transform: translateX(-50px);
+        opacity: 0;
+        width: 40px;
+        position: absolute;
+    }
+    .bi-arrow-right {
+        padding: 6px;
+    }
+    .seemore:hover {
+        padding: 16px 60px;
+        transition: 0.19s;
+    }
+    .seemore:hover .bi-arrow-right {
+        opacity: 1;
+        transform: translateX(0);
+        position: absolute;
+
+    }
+    .trynow .bi-arrow-right {
+        transform: translateX(-50px);
+        opacity: 0;
+        width: 40px;
+        position: absolute;
+    }
+    .bi-arrow-right {
+        padding: 6px;
+    }
+    .trynow:hover {
+        padding: 16px 60px;
+        transition: 0.19s;
+    }
+    .trynow:hover .bi-arrow-right {
+        opacity: 1;
+        transform: translateX(0);
+        position: absolute;
+
+    }
+
+    .seemore2 .bi-arrow-right {
+        transform: translateX(-50px);
+        opacity: 0;
+        width: 40px;
+        position: absolute;
+    }
+    .bi-arrow-right {
+        padding: 6px;
+    }
+    .seemore2:hover {
+        padding: 16px 60px;
+        transition: 0.19s;
+    }
+
+    .seemore2:hover .bi-arrow-right {
+        opacity: 1;
+        transform: translateX(0);
+        position: absolute;
+    }
+
+    .vatural-paragraph {
+        font-size: 30px;
+        margin-top: -18.4em;
+        margin-left: 17em;
+        margin-bottom: 1em;
+        margin-right: 1%;
+
+    }
+
+    .aboutus-section {
+        margin-top: 15em;
+    }
+
+    .aboutusimg {
+        width: 487px;
+        height: 458px;
+    }
+
+    .aboutus-header {
+        margin-bottom: -7em;
+        height: 56px;
+        width: 595px;
+        margin-left: 10em;
+    }
+
+    .aboutus-text {
+        font-size: 100px;
+        margin-top: 0.2em;
+        height: 30px;
+        margin-left: -2.2em;
+
+    }
+
+    .aboutus-paragraph {
+        font-size: 30px;
+        margin-top: -9.4em;
+        margin-left: 11em;
+        margin-bottom: 1em;
+        margin-right: 1%;
+    }
+
+    .seemore2 {
+        margin-left: 11em;
+    }
 }
