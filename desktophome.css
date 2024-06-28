@@ -720,7 +720,7 @@ footer {
     .logo {
         width: 118px;
         height: 30px;
-            margin-top: 1em;
+        margin-top: 1em;
     }
 
     .navbar {
@@ -733,7 +733,7 @@ footer {
         justify-content: center;
         display: flex;
         margin-right: auto;
-        margin-left: 3wv;
+        margin-left: auto;
     }
 
     .main-content {
@@ -748,7 +748,7 @@ footer {
         height: 34px;
         text-align: center;
         margin-top: -4.2em;
-        margin-left: 17vw;
+        margin-left: 22vw;
         margin-right: 4vw;
     }
 
