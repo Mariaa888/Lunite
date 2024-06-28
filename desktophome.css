@@ -323,7 +323,7 @@ html,body {
 }
 .right-section {
    margin-top:-3vw;
-  margin-left:2vw;
+  margin-left:4vw;
 }
 .sign-up {
     font-size: 14px;
@@ -356,6 +356,8 @@ html,body {
 .Welcome{
  width: 80%;
 font-size:  1.25em;
+    margin-left:auto;
+     margin-right:auto;
 }
  .shopnow{
  font-size: 20px;
