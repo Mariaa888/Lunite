@@ -323,10 +323,9 @@ html,body {
 }
 .right-section {
    margin-top:-3vw;
-  margin-left:4vw;
 }
 .sign-up {
-    font-size: 14px;
+    font-size: 0.875em;
 }
 .login {
     margin-left: auto;
@@ -360,7 +359,7 @@ font-size:  1.25em;
      margin-right:auto;
 }
  .shopnow{
- font-size: 20px;
+ font-size: 1.25em;
  }
 .bi-arrow-right {
        transform: translateX(-50px);
