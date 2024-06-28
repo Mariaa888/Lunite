@@ -1,8 +1,10 @@
-body{
-background-color: #F5F5F5;
-height: auto;
-overflow-x: hidden;
-
+html,body {
+    background-color: #F5F5F5;
+    height: auto;
+    overflow-x:hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 .background {
     background-repeat: no-repeat;
@@ -307,6 +309,8 @@ footer {
     font-style: normal;
 }
   @media(max-width:600px){
+html,body {
+height: 100%;}
 .background{
     background-image: url(images/Rectangle\ 2.png);
     height: 25em;
