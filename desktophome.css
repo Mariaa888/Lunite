@@ -744,7 +744,7 @@ footer {
     }
 
     .search {
-        width: 293px;
+        width: 40vw;
         height: 34px;
         text-align: center;
         margin-top: -4.2em;
@@ -766,11 +766,11 @@ footer {
         text-align: center;
         text-shadow: 0 5px 4px rgb(0, 0, 0, 25%);
         font-family: "Inter", sans-serif;
-        margin-top: 2em;
+        margin-top: 2vw;
     }
 
     .shopnow {
-        margin-left: 2em;
+        margin-left: 6vw;
         font-size: 30px;
         padding: 10px 20px;
         padding-left: 30px;
