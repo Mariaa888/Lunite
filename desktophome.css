@@ -96,7 +96,7 @@
      font-family: "Montaga", serif;
      border: none;
      border-radius: 50px;
-     padding: 1.6vw 3vw;
+     padding: 3vw 5vw;
      display: inline-block;
      box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
      text-align: center;
@@ -326,8 +326,8 @@ html,body {
     height: 2vh;
 }
 .right-section {
-   margin-top:-2vw;
-    margin-left:1vw;
+   margin-top:-6vw;
+  margin-left:1vw;
 }
 .sign-up {
     font-size: 14px;
@@ -358,14 +358,14 @@ html,body {
     padding-left: 0.2em;
 }
 .Welcome{
-    font-size: 4vw;
-        width: 100%;
+    font-size: 5vw;
+        width: 86%;
         margin-left: auto;
         margin-right: auto;
 }
  .shopnow{
      margin-left:1vw;
- font-size: 3vw;
+ font-size: 5vw;
  }
 .bi-arrow-right {
        transform: translateX(-50px);
