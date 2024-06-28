@@ -557,9 +557,9 @@ font-size: 3vw;
             height: 28px;
  }
  .social{
-    margin-top: 6.667vw
+    margin-top: 40px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 2vw;
  }
  .bi {
      margin-right: 20px;
@@ -689,8 +689,6 @@ font-size: 25px;
         margin-top:1em;
      font-size: 20px;
  }
-
-
  .sunglassimage {
 width: 160.19px;
     height: 109.82px;
