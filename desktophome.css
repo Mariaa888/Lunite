@@ -884,6 +884,41 @@ padding-right: 1em;
 }
 @media  (min-width:1024px){
 
+.main-content{
+      display: flex;
+   flex-direction: column;
+   align-items: center;
+justify-content: center;
+                }
+.search {
+    width: 293px;
+    height: 34px;
+    text-align: center;   
+    margin-top: -4.2em;
+    margin-left: 96%;
+    margin-right: 4em;
+        }
+.search button {
+    margin-left: 7em;
+    padding-top: 0.3em;
+        }
+.Welcome{
+ width: 80%;
+font-size:  1.25em;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 5px 4px rgb(0, 0, 0, 25%);
+    font-family: "Inter", sans-serif;
+    margin-top: 2em;
+}
+.shopnow {
+    margin-left: 2em;
+     font-size: 30px;
+    padding: 10px 20px;
+    padding-left: 30px;
+}
     .cards {
             margin-bottom: 3em;
             gap: 8em;
