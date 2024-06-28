@@ -1,4 +1,3 @@
-
 .background {
     background-repeat: no-repeat;
     position:relative;
@@ -229,16 +228,13 @@ align-items: center;}
 .seconed {
     display: flex;
         flex-direction: row;
-     
   }                              
 .aboutus-header {
 background-color: rgb(183, 152, 152, 37%);
 justify-content: center;
-
 }
 .aboutus-text {
- 
-    margin-left: -4em;
+     margin-left: -4em;
     width: 100%;
     font-family: "Montaga", serif;
     font-style: normal;
@@ -359,12 +355,12 @@ html,body {
     padding-left: 0.2em;
 }
 .Welcome{
-    font-size:  2em;
+    font-size:  20px;
         margin-left: auto;
         margin-right: auto;
 }
  .shopnow{
- font-size: 2em;
+ font-size: 20px;
  }
 .bi-arrow-right {
        transform: translateX(-50px);
