@@ -1,7 +1,6 @@
 body{
 background-color: #F5F5F5;
 height: auto;
-width: 100%;
 overflow-x: hidden;
 
 }
@@ -346,7 +345,7 @@ footer {
     text-align: center;
 }
 .search button {
-    margin-left: -3.1em;
+    margin-left:-6.1vw;
     padding-top: 0.3em;
  }
 .search-input{
