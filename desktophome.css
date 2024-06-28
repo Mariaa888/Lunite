@@ -79,7 +79,7 @@
     background: transparent;
          }
 .Welcome {  
-    font:25px
+    font:1.5em;
     width: 29.375em;
     margin-left: 2%;
     position: relative;
@@ -323,7 +323,7 @@ html,body {
     height: 2vh;
 }
 .right-section {
-   margin-top:-6vw;
+   margin-top:-5vw;
   margin-left:1vw;
 }
 .sign-up {
@@ -352,13 +352,13 @@ html,body {
 .search-input{
     font-size: 13.2px;
     height: 12px;
-    padding-left: 0.2em;
+    padding-left: 0.1em;
 }
 .Welcome{
  width: 0.8em;
-    font-size:  1.25em;
-        margin-left: auto;
-        margin-right: auto;
+font-size:  1.25em;
+ margin-left: auto;
+margin-right: auto;
 }
  .shopnow{
  font-size: 20px;
@@ -464,13 +464,11 @@ margin-right: 5vw;
         display: flex;
         padding-left: 2vw;
 }
-
 .bi-arrow-right {
     opacity: 0;
     width: 40px;
     position: absolute;
 }
-
 .virtual-img{
     width:50vw;
     height: 50vw;
@@ -494,7 +492,6 @@ margin-left: 13vw;
 margin-bottom: 1vw;
 margin-right: auto;
 width: 100%;
-
 }
 .bi-arrow-right {
      transform: translateX(-50px);
