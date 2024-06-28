@@ -453,7 +453,7 @@ margin-right: 5vw;
    margin-left: -2vw
 }
 .card6{
-      margin-left: -4nvw
+      margin-left: -6nvw;
 }
 .card5{
     padding-right: 5vw;
@@ -529,9 +529,7 @@ margin-left: 17vw ;
     font-size: 3vw;
         margin-top: -50vw;
         margin-left: 40vw;
-        margin-bottom: 1em;
-   
-        
+        margin-bottom: 1em;     
 }
  .seemore2 {
 font-size: 3vw;
@@ -557,8 +555,8 @@ font-size: 3vw;
             height: 28px;
  }
  .social{
-    margin-top: 40px;
-    margin-right: auto;
+  margin-top: 40px;
+margin-right: auto;
     margin-left: 2vw;
  }
  .bi {
