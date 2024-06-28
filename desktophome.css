@@ -358,14 +358,13 @@ html,body {
     padding-left: 0.2em;
 }
 .Welcome{
-    font-size: 5vw;
-        width: 86%;
+    font-size: 13vw;
         margin-left: auto;
         margin-right: auto;
 }
  .shopnow{
      margin-left:1vw;
- font-size: 5vw;
+ font-size: 13vw;
  }
 .bi-arrow-right {
        transform: translateX(-50px);
