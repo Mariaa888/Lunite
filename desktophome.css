@@ -349,7 +349,7 @@ html,body {
     text-align: center;
 }
 .search button {
-    margin-left:-6.1vw;
+    margin-left:-7.1vw;
     padding-top: 0.3em;
  }
 .search-input{
@@ -573,7 +573,7 @@ font-size: 3vw;
     opacity: 0;
  }
  .second-section {
-     padding-left: 70px;
+     padding-left: 1vw;
      display: flex;
 }
 .second-section ul {
