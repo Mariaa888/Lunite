@@ -269,7 +269,7 @@ footer {
     margin-top: 40px;
     bottom: 0;
     background-color: #DDC4C4;
-    width: 100%;
+    width:max-width;
     height: 364px;
     border-radius: 30px 30px 0 0;
 }
@@ -308,7 +308,7 @@ html,body {
     margin: 0;
     padding: 0;
      width: max-content;
-      height: fit-content;
+     height: fit-content;
 }
 }
 .background{
@@ -316,7 +316,7 @@ html,body {
     height: 25em;
     width: 100%;
     background-size: cover;
-    object-fit: fill;
+    object-fit:cover ;
 }
 .left-section {
     margin-left: 2%;
@@ -434,8 +434,7 @@ height: 130px;
     margin-bottom: 2em;
     margin-left: auto;
     margin-right: auto;
-    gap: 12vw;
-
+    gap: 20vw;
   }
 .card1 {
     margin-right: 4vw;
@@ -458,7 +457,7 @@ margin-right: 5vw;
    margin-left: -2vw
 }
 .card5{
-    padding-right: 11vw;
+    padding-right: 5vw;
 }
 .seemore{
     font-size: 3vw;
@@ -549,6 +548,7 @@ font-size: 3vw;
  }
  footer{
     height: auto;
+     object-fit:cover ;
  }
 .first-section{
     justify-content: space-between;
