@@ -323,7 +323,7 @@ html,body {
     height: 2vh;
 }
 .right-section {
-   margin-top:-5vw;
+   margin-top:-3vw;
   margin-left:1vw;
 }
 .sign-up {
@@ -355,7 +355,7 @@ html,body {
     padding-left: 0.1em;
 }
 .Welcome{
- width: 0.8em;
+ width: 2em;
 font-size:  1.25em;
  margin-left: auto;
 margin-right: auto;
