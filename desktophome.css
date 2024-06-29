@@ -1030,12 +1030,15 @@ footer {
 }
 
 @media (min-width:1024px) {
-.buybycatogires-section{
-    flex-direction: column;
-        align-items: center;
+       .catogires {
+        max-width: 100%;
         justify-content: center;
-    margin-left:-1em;
-}
+        margin-left: auto;
+        margin-right: auto;
+        width: 500.57px;
+        height: 220.64px;
+    }
+
 .line{
 margin-left: 5em;
 }
@@ -1110,7 +1113,7 @@ margin-left: 5em;
         font-size: 70px;
         width: 80%;
         margin-top: 0.3em;
-        margin-left:auto;
+        margin-left:-1em;
     }
 
     .img .photo1after:hover {
@@ -1292,5 +1295,10 @@ margin-left: 5em;
 
     .seemore2 {
         margin-left: 11em;
+    }
+   .social {
+        margin-right: auto;
+        margin-top: 11em;
+        margin-left: -6.667vw;
     }
 }
