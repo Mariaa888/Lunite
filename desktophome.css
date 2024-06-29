@@ -1030,31 +1030,17 @@ footer {
 }
 
 @media (min-width:1024px) {
-    .buybycatogires-section{
-        margin-left:-2em;
-    }
+
     .Sunglass,
 .Eyglass {
 width: 600.57px; 
 }
 
-       .catogires {
-        max-width: 100%;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        width: 600.57px;
-        height: 220.64px;
-    }
+
 .line{
 margin-left: 5em;
 }
-    .main-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+   
     .search {
         margin-left: 5em;
         width: 40vw;
@@ -1078,18 +1064,23 @@ margin-left: 5em;
         margin-bottom: 3em;
         gap: 8em;
         margin-right: auto;
-        margin-left:auo
+        margin-right: auto;
+
     }
+
     .card1 {
         margin-left: auto;
     }
+
     .card3 {
         margin-left: -2.7em;
         margin-right: auto;
     }
+
     .card4 {
         padding-right: 1.3em;
     }
+
     .photo1,
     .photo1after {
         width: 183.09px;
@@ -1097,6 +1088,11 @@ margin-left: 5em;
         border-radius: 30px;
     }
 
+    .name {
+        font-size: 40px;
+        margin-top: 5em;
+        margin-right: auto;
+    }
     .name {
         font-size: 40px;
         margin-top: 5em;
