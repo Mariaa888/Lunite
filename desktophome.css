@@ -875,10 +875,10 @@ footer {
     .seemore {
         font-size: 30px;
         padding: 2px 15px;
-        margin-left: 1em;
+        margin-left: 4em;
         margin-right: auto;
         display: flex;
-        padding-left: 3em;
+        padding-left: 1em;
     }
 
     .bi-arrow-right {
