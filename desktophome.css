@@ -1054,12 +1054,19 @@ margin-left: 5em;
         padding-top: 0.3em;
     }
 
+      .buybycatogires-section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: -6em;
+    }
     .shopnow {
-        margin-left: 2em;
+        margin-left: -2em;
         font-size: 30px;
         padding: 10px 20px;
-        padding-left: 30px;
-    } 
+        padding-left: 20px;
+    }
+
     .cards {
         margin-bottom: 3em;
         gap: 8em;
@@ -1093,11 +1100,6 @@ margin-left: 5em;
         margin-top: 5em;
         margin-right: auto;
     }
-    .name {
-        font-size: 40px;
-        margin-top: 5em;
-        margin-right: auto;
-    }
 
     .background {
         background-size: cover;
@@ -1106,11 +1108,12 @@ margin-left: 5em;
         object-fit: fill;
 
     }
+
     .Welcome {
         font-size: 70px;
         width: 80%;
         margin-top: 0.3em;
-        margin-left:-1em;
+        margin-left: -3em;
     }
 
     .img .photo1after:hover {
@@ -1147,11 +1150,12 @@ margin-left: 5em;
         padding-left: 60px;
         box-shadow: 0 5px 4px rgb(0, 0, 0, 25%);
         margin-top: 1em;
-
     }
-.shopnow{
-    margin-left: 2em;
-}
+
+  .seemore{
+    margin-left: 14em;
+  }
+
     .trynow {
         margin-left: 14em;
     }
@@ -1196,32 +1200,39 @@ margin-left: 5em;
         width: 40px;
         position: absolute;
     }
+
     .bi-arrow-right {
         padding: 6px;
     }
+
     .seemore:hover {
         padding: 16px 60px;
         transition: 0.19s;
     }
+
     .seemore:hover .bi-arrow-right {
         opacity: 1;
         transform: translateX(0);
         position: absolute;
 
     }
+
     .trynow .bi-arrow-right {
         transform: translateX(-50px);
         opacity: 0;
         width: 40px;
         position: absolute;
     }
+
     .bi-arrow-right {
         padding: 6px;
     }
+
     .trynow:hover {
         padding: 16px 60px;
         transition: 0.19s;
     }
+
     .trynow:hover .bi-arrow-right {
         opacity: 1;
         transform: translateX(0);
@@ -1235,9 +1246,11 @@ margin-left: 5em;
         width: 40px;
         position: absolute;
     }
+
     .bi-arrow-right {
         padding: 6px;
     }
+
     .seemore2:hover {
         padding: 16px 60px;
         transition: 0.19s;
@@ -1248,32 +1261,26 @@ margin-left: 5em;
         transform: translateX(0);
         position: absolute;
     }
-
     .vatural-paragraph {
         font-size: 30px;
         margin-top: -18.4em;
         margin-left: 17em;
         margin-bottom: 1em;
         margin-right: 1%;
-
-    }
-
+    }    
     .aboutus-section {
         margin-top: 15em;
     }
-
     .aboutusimg {
         width: 487px;
         height: 458px;
     }
-
     .aboutus-header {
         margin-bottom: -7em;
         height: 56px;
         width: 595px;
         margin-left: 10em;
     }
-
     .aboutus-text {
         font-size: 100px;
         margin-top: 0.2em;
@@ -1292,10 +1299,4 @@ margin-left: 5em;
 
     .seemore2 {
         margin-left: 11em;
-    }
-   .social {
-        margin-right: auto;
-        margin-top: 11em;
-        margin-left: -11em;
-    }
-}
+    }}
