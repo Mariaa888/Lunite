@@ -1030,6 +1030,9 @@ footer {
 }
 
 @media (min-width:1024px) {
+    .buybycatogires-section{
+        margin-left:-2em;
+    }
     .Sunglass,
 .Eyglass {
 width: 600.57px; 
@@ -1042,7 +1045,6 @@ width: 600.57px;
         margin-right: auto;
         width: 600.57px;
         height: 220.64px;
-           
     }
 .line{
 margin-left: 5em;
@@ -1076,7 +1078,7 @@ margin-left: 5em;
         margin-bottom: 3em;
         gap: 8em;
         margin-right: auto;
-        margin-right: auto;
+        margin-left:auo
     }
     .card1 {
         margin-left: auto;
@@ -1152,7 +1154,7 @@ margin-left: 5em;
 
     }
 .shopnow{
-    margin-left: 4em;
+    margin-left: 2em;
 }
     .trynow {
         margin-left: 14em;
