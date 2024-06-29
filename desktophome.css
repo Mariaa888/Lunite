@@ -1046,14 +1046,13 @@ margin-left: 10em;
         align-items: center;
         justify-content: center;
     }
-
     .search {
-    margin-left: 70em;
-   width: 40vw;
+        margin-left: 5em;
+        width: 40vw;
         height: 34px;
         text-align: center;
         margin-top: -8.2em;
-        margin-right: 4em;
+        margin-right: 5em;
     }
 
     .search button {
@@ -1112,7 +1111,7 @@ margin-left: 10em;
         font-size: 70px;
         width: 80%;
         margin-top: 0.3em;
-        margin-left: -3em;
+        margin-left: -1em;
     }
 
     .img .photo1after:hover {
