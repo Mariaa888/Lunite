@@ -1029,276 +1029,283 @@ footer {
     }
 }
 
-@media (min-width:1024px) {
-   .buybycatogires-section {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-left: -6em;
+@media (min-width:1024px){
+    .buybycatogires-section {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-left: -10em;
+        }
+    
+        .line {
+            margin-left: 10em;
+        }
+    
+    
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+          
+        }
+    
+        .search {
+            margin-left: 5em;
+            width: 40vw;
+            height: 34px;
+            text-align: center;
+            margin-top: -8.2em;
+            margin-right: 5em;
+        }
+    
+        .search button {
+            margin-left: 24vw;
+            padding-top: 0.3em;
+        }
+    
+    
+        .shopnow {
+            margin-left: -2em;
+            font-size: 30px;
+            padding: 10px 20px;
+            padding-left: 20px;
+        }
+    
+        .cards {
+            margin-bottom: 3em;
+            gap: 8em;
+            margin-right: auto;
+        }
+    
+        .card1 {
+            margin-left: auto;
+        }
+    
+        .card3 {
+            margin-left: -2.7em;
+            margin-right: auto;
+        }
+    
+        .card4 {
+            padding-right: 1.3em;
+        }
+    
+        .photo1,
+        .photo1after {
+            width: 183.09px;
+            height: 184.36px;
+            border-radius: 30px;
+        }
+    
+        .name {
+            font-size: 40px;
+            margin-top: 5em;
+            margin-right: auto;
+        }
+    
+        .background {
+            background-size: cover;
+            height: 490px;
+            width: 100%;
+            object-fit: fill;
+    
+        }
+    
+        .Welcome {
+            font-size: 70px;
+            width: 80%;
+            margin-top: 0.3em;
+            margin-left: -1em;
+        }
+    
+        .img .photo1after:hover {
+            opacity: 0;
+            cursor: pointer;
+        }
+    
+        .virtual-img {
+            width: 520.98px;
+            height: 720.51px;
+        }
+    
+        .virtual-header {
+            margin-bottom: -11.7vw;
+            height: 4vw;
+            width: 700px;
+            margin-left: 30em;
+            margin-top: 6vw;
+        }
+    
+        .vatural-text {
+            font-size: 7vw;
+            width: 100%;
+            margin-top: 5vw;
+        }
+    
+        .shopnow,
+        .seemore,
+        .trynow,
+        .seemore2 {
+            font-size: 40px;
+            padding: 16px 40px;
+            display: inline;
+            padding-left: 60px;
+            box-shadow: 0 5px 4px rgb(0, 0, 0, 25%);
+            margin-top: 1em;
+        }
+    
+        .seemore {
+            margin-left: 13em;
+        }
+    
+        .trynow {
+            margin-left: 14em;
+        }
+    
+        .shopnow .bi-arrow-right {
+            transform: translateX(-50px);
+            opacity: 0;
+            width: 40px;
+            position: absolute;
+        }
+    
+        .bi-arrow-right {
+            padding: 6px;
+        }
+    
+        .shopnow:hover {
+            padding: 16px 60px;
+            transition: 0.19s;
+        }
+    
+        .shopnow:hover .bi-arrow-right {
+            opacity: 1;
+            transform: translateX(0);
+            position: absolute;
+        }
+    
+        .cursor {
+            margin-top: -1.6em;
+            margin-left: -3.4em;
+        }
+    
+        .button {
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        .seemore .bi-arrow-right {
+    
+            transform: translateX(-50px);
+            opacity: 0;
+            width: 40px;
+            position: absolute;
+        }
+    
+        .bi-arrow-right {
+            padding: 6px;
+        }
+    
+        .seemore:hover {
+            padding: 16px 60px;
+            transition: 0.19s;
+        }
+    
+        .seemore:hover .bi-arrow-right {
+            opacity: 1;
+            transform: translateX(0);
+            position: absolute;
+    
+        }
+    
+        .trynow .bi-arrow-right {
+            transform: translateX(-50px);
+            opacity: 0;
+            width: 40px;
+            position: absolute;
+        }
+    
+        .bi-arrow-right {
+            padding: 6px;
+        }
+    
+        .trynow:hover {
+            padding: 16px 60px;
+            transition: 0.19s;
+        }
+    
+        .trynow:hover .bi-arrow-right {
+            opacity: 1;
+            transform: translateX(0);
+            position: absolute;
+    
+        }
+    
+        .seemore2 .bi-arrow-right {
+            transform: translateX(-50px);
+            opacity: 0;
+            width: 40px;
+            position: absolute;
+        }
+    
+        .bi-arrow-right {
+            padding: 6px;
+        }
+    
+        .seemore2:hover {
+            padding: 16px 60px;
+            transition: 0.19s;
+        }
+    
+        .seemore2:hover .bi-arrow-right {
+            opacity: 1;
+            transform: translateX(0);
+            position: absolute;
+        }
+    
+        .vatural-paragraph {
+            font-size: 30px;
+            margin-top: -18.4em;
+            margin-left: 17em;
+            margin-bottom: 1em;
+            margin-right: 1%;
+        }
+    
+        .aboutus-section {
+            margin-top: 15em;
+        }
+    
+        .aboutusimg {
+            width: 487px;
+            height: 458px;
+        }
+    
+        .aboutus-header {
+            margin-bottom: -7em;
+            height: 56px;
+            width: 595px;
+            margin-left: 10em;
+        }
+    
+        .aboutus-text {
+            font-size: 100px;
+            margin-top: 0.2em;
+            height: 30px;
+            margin-left: -2.2em;
+    
+        }
+    
+        .aboutus-paragraph {
+            font-size: 30px;
+            margin-top: -9.4em;
+            margin-left: 11em;
+            margin-bottom: 1em;
+            margin-right: 1%;
+        }
+    
+        .seemore2 {
+            margin-left: 11em;
+        }
     }
-
-    .line {
-        margin-left: 10em;
-    }
-
-   
-    .main-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-left: -1em;
-    }
-
-    .search {
-        margin-left: 5em;
-        width: 40vw;
-        height: 34px;
-        text-align: center;
-        margin-top: -8.2em;
-        margin-right: 5em;
-    }
-    .search button {
-        margin-left: 24vw;
-        padding-top: 0.3em;
-    }
-
-  
-    .shopnow {
-        margin-left: -2em;
-        font-size: 30px;
-        padding: 10px 20px;
-        padding-left: 20px;
-    }
-
-    .cards {
-        margin-bottom: 3em;
-        gap: 8em;
-        margin-right: auto;
-    }
-
-    .card1 {
-        margin-left: auto;
-    }
-
-    .card3 {
-        margin-left: -2.7em;
-        margin-right: auto;
-    }
-
-    .card4 {
-        padding-right: 1.3em;
-    }
-
-    .photo1,
-    .photo1after {
-        width: 183.09px;
-        height: 184.36px;
-        border-radius: 30px;
-    }
-
-    .name {
-        font-size: 40px;
-        margin-top: 5em;
-        margin-right: auto;
-    }
-
-    .background {
-        background-size: cover;
-        height: 490px;
-        width: 100%;
-        object-fit: fill;
-
-    }
-
-    .Welcome {
-        font-size: 70px;
-        width: 80%;
-        margin-top: 0.3em;
-        margin-left: -3em;
-    }
-
-    .img .photo1after:hover {
-        opacity: 0;
-        cursor: pointer;
-    }
-
-    .virtual-img {
-        width: 520.98px;
-        height: 720.51px;
-    }
-
-    .virtual-header {
-        margin-bottom: -11.7vw;
-        height: 4vw;
-        width: 700px;
-        margin-left: 30em;
-        margin-top: 6vw;
-    }
-
-    .vatural-text {
-        font-size: 7vw;
-        width: 100%;
-        margin-top: 5vw;
-    }
-
-    .shopnow,
-    .seemore,
-    .trynow,
-    .seemore2 {
-        font-size: 40px;
-        padding: 16px 40px;
-        display: inline;
-        padding-left: 60px;
-        box-shadow: 0 5px 4px rgb(0, 0, 0, 25%);
-        margin-top: 1em;
-    }
-
-  .seemore{
-    margin-left: 14em;
-  }
-
-    .trynow {
-        margin-left: 14em;
-    }
-
-    .shopnow .bi-arrow-right {
-        transform: translateX(-50px);
-        opacity: 0;
-        width: 40px;
-        position: absolute;
-    }
-
-    .bi-arrow-right {
-        padding: 6px;
-    }
-
-    .shopnow:hover {
-        padding: 16px 60px;
-        transition: 0.19s;
-    }
-
-    .shopnow:hover .bi-arrow-right {
-        opacity: 1;
-        transform: translateX(0);
-        position: absolute;
-    }
-
-    .cursor {
-        margin-top: -1.6em;
-        margin-left: -3.4em;
-    }
-
-    .button {
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .seemore .bi-arrow-right {
-
-        transform: translateX(-50px);
-        opacity: 0;
-        width: 40px;
-        position: absolute;
-    }
-
-    .bi-arrow-right {
-        padding: 6px;
-    }
-
-    .seemore:hover {
-        padding: 16px 60px;
-        transition: 0.19s;
-    }
-
-    .seemore:hover .bi-arrow-right {
-        opacity: 1;
-        transform: translateX(0);
-        position: absolute;
-
-    }
-
-    .trynow .bi-arrow-right {
-        transform: translateX(-50px);
-        opacity: 0;
-        width: 40px;
-        position: absolute;
-    }
-
-    .bi-arrow-right {
-        padding: 6px;
-    }
-
-    .trynow:hover {
-        padding: 16px 60px;
-        transition: 0.19s;
-    }
-
-    .trynow:hover .bi-arrow-right {
-        opacity: 1;
-        transform: translateX(0);
-        position: absolute;
-
-    }
-
-    .seemore2 .bi-arrow-right {
-        transform: translateX(-50px);
-        opacity: 0;
-        width: 40px;
-        position: absolute;
-    }
-
-    .bi-arrow-right {
-        padding: 6px;
-    }
-
-    .seemore2:hover {
-        padding: 16px 60px;
-        transition: 0.19s;
-    }
-
-    .seemore2:hover .bi-arrow-right {
-        opacity: 1;
-        transform: translateX(0);
-        position: absolute;
-    }
-    .vatural-paragraph {
-        font-size: 30px;
-        margin-top: -18.4em;
-        margin-left: 17em;
-        margin-bottom: 1em;
-        margin-right: 1%;
-    }    
-    .aboutus-section {
-        margin-top: 15em;
-    }
-    .aboutusimg {
-        width: 487px;
-        height: 458px;
-    }
-    .aboutus-header {
-        margin-bottom: -7em;
-        height: 56px;
-        width: 595px;
-        margin-left: 10em;
-    }
-    .aboutus-text {
-        font-size: 100px;
-        margin-top: 0.2em;
-        height: 30px;
-        margin-left: -2.2em;
-
-    }
-
-    .aboutus-paragraph {
-        font-size: 30px;
-        margin-top: -9.4em;
-        margin-left: 11em;
-        margin-bottom: 1em;
-        margin-right: 1%;
-    }
-
-    .seemore2 {
-        margin-left: 11em;
-    }}
