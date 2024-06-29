@@ -736,7 +736,7 @@ footer {
         margin-left: auto;
     }
 
-    .main-content {
+ .main-content {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -744,13 +744,14 @@ footer {
     }
 
     .search {
-        width: 40vw;
+    margin-left: 70em;
+   width: 40vw;
         height: 34px;
         text-align: center;
-        margin-top: -4.2em;
-        margin-left: 22vw;
-        margin-right: 4vw;
+        margin-top: -8.2em;
+        margin-right: 4em;
     }
+
 
     .search button {
         margin-left: 7em;
