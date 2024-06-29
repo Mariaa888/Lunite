@@ -1030,15 +1030,20 @@ footer {
 }
 
 @media (min-width:1024px) {
+    .Sunglass,
+.Eyglass {
+width: 600.57px; 
+}
+
        .catogires {
         max-width: 100%;
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
-        width: 500.57px;
+        width: 600.57px;
         height: 220.64px;
+           
     }
-
 .line{
 margin-left: 5em;
 }
@@ -1056,7 +1061,6 @@ margin-left: 5em;
         margin-top: -8.2em;
         margin-right: 5em;
     }
-
     .search button {
         margin-left: 24vw;
         padding-top: 0.3em;
@@ -1067,28 +1071,23 @@ margin-left: 5em;
         font-size: 30px;
         padding: 10px 20px;
         padding-left: 30px;
-    }
-
+    } 
     .cards {
         margin-bottom: 3em;
         gap: 8em;
         margin-right: auto;
         margin-right: auto;
-    
     }
     .card1 {
         margin-left: auto;
     }
-
     .card3 {
         margin-left: -2.7em;
         margin-right: auto;
     }
-
     .card4 {
         padding-right: 1.3em;
     }
-
     .photo1,
     .photo1after {
         width: 183.09px;
@@ -1153,7 +1152,7 @@ margin-left: 5em;
 
     }
 .shopnow{
-    margin-left: -4em;
+    margin-left: 4em;
 }
     .trynow {
         margin-left: 14em;
@@ -1299,6 +1298,6 @@ margin-left: 5em;
    .social {
         margin-right: auto;
         margin-top: 11em;
-        margin-left: -6.667vw;
+        margin-left: -11em;
     }
 }
