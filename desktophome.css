@@ -546,23 +546,20 @@ footer {
     .seemore {
         font-size: 3vw;
         padding: 2vw 3vw;
-        margin-left: 53vw;
+        margin-left: 50vw;
         margin-right: auto;
         display: flex;
         padding-left: 3vw;
     }
-
     .bi-arrow-right {
         opacity: 0;
         width: 40px;
         position: absolute;
     }
-
     .virtual-img {
         width: 50vw;
         height: 50vw;
     }
-
     .virtual-header {
         margin-bottom: -9vw;
         height: 4vw;
@@ -570,7 +567,6 @@ footer {
         margin-left: 7em;
         margin-top: 20px;
     }
-
     .vatural-text {
         font-size: 6.6vw;
         margin-top: 2.3vw;
@@ -882,7 +878,7 @@ footer {
         margin-left: 1em;
         margin-right: auto;
         display: flex;
-        padding-left: 15px;
+        padding-left: 3em;
     }
 
     .bi-arrow-right {
