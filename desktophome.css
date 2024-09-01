@@ -343,6 +343,7 @@ display: inline-flex;
 width: 70vw;
     height: 70vw;
     margin-left: -12vw;
+   z-index: 200;
 }
 
 .seconed {
