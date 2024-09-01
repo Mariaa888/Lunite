@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luneti</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<link rel="stylesheet" href="desktophome.css">
+<link rel="stylesheet" href="index.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montaga&display=swap" rel="stylesheet">    
@@ -19,20 +19,10 @@
         <div class="left-section">
     <img src="images/Luneti..png" class="logo">
     </div>
-    <div class="right-section">
-        <ul class="navbar">
-            <li><a href="" class="login">Log in</a></li>
-            <button class="signup">
-                <li><a href="" class="sign-up">SIGN UP</a></li>
-            </button>
-        </ul>
-    </div>
-    </nav>
-    <div class="main-content">
     <div class="middle-section">
         <div class="search">
-            <input class="search-input" type="search" placeholder="search">
-            <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+          <input class="search-input" type="search" placeholder="search">
+            <button> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
                     viewBox="0 0 16 16">
                     <path
                         d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
@@ -40,6 +30,14 @@
             </button>
         </div>
     </div>
+    <div class="right-section">
+        <ul class="navbar">
+            <li><a href="" class="login">Log in</a></li>
+         </ul>    <button class="signup">
+                Sign up
+            </button>
+    </div>
+    </nav>
     <div class="Welcome">BRIGHTEN YOUR DAY WITH STAYLESDH SHADE!!</div>
     <div class="begining">
     <button class="shopnow">Shop Now!&nbsp;<svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi-arrow-right"
@@ -55,38 +53,47 @@
 
 <div class="buybycatogires-section" id="buybycategories">
 
-
-        <div class="headertext category-container"  data-aos="fade-down"> </div>
-        <div class="header-text category-container"  data-aos="fade-down">
+    <div class="Headclass"data-aos="fade-down"> 
+        <div class="headertext">
+        <div class="header-text category-container" >
             BUY BY CATOGRIES
         </div> 
-
+     </div>
+    </div>
 
         <div class="catogires">
-        <div class="Sunglass category-container" data-aos="fade-right" data-category="Sunglass" onclick="ShowSunglass()" >
+        <div class="Sunglass category-container"  data-category="Sunglass" onclick="ShowSunglass()" data-aos="fade-right">
         <img src="images/sunglass.png" class="sunglassimage">
         <div class="sunglasstext">SUNGLASS</div>
             </div>
-            <div class="Eyglass category-container" data-aos="fade-left" data-category="Eyglass"onclick="ShowEyeglass()" >
+            <div class="Eyglass category-container" data-category="Eyglass"onclick="ShowEyeglass()" data-aos="fade-left">
                 <img src="images/1eyeglass.png" class="eyeglassimage">
                 <div class="eyeglasstext">EYEGLASS</div>
             </div>
           
         </div>
-        <div class="line"></div>
+      
+        <div class="line">
+
+        </div>
+     
         <div class="best-sellers category-container"  id="bestsellers">
             BEST SELLERS
         </div>
-        <div class="seller-boxes"  data-aos="fade-down">
-            <div class="cardcarogry1"  data-category="Sunglass">
+  
+        <div class="seller-boxes">
+          
+            <div class="cardcarogry1"  data-category="Sunglass"data-aos="fade-down">
             <div class="cards">
                 <div class="card1">
                     <div class="img">
                         <img src="images/photon1.jpg" class="photo1">
-                        <img src="images/photo1.jpg" class="photo1after">
+                     <img src="images/photo1.jpg" class="photo1after">
                     </div>
+                    
                     <div class="name">K-12</div>
                 </div>
+                
                 <div class="card2">
                     <div class="img">
                         <img src="images/photon2.jpg" class="photo1">
@@ -94,7 +101,8 @@
                     </div>
                     <div class="name">Roundy</div>
                 </div>
-                <div class="card3">
+                
+              <div class="card3">
                     <div class="img">
                         <img src="images/photon3.jpg" class="photo1">
                         <img src="images/photo3.jpg" class="photo1after">
@@ -103,7 +111,7 @@
                 </div>
             </div>
             </div>
-<div class="cardcarogry2" data-category="Eyglass" style="display: none;">
+ <div class="cardcarogry2" data-category="Eyglass" style="display: none;" >
     <div class="cards">
         <div class="card4">
             <div class="img">
@@ -124,7 +132,9 @@
                 <img src="images/eyeglassn3.jpg" class="photo1">
                 <img src="images/eyeglass3.jpg" class="photo1after">
             </div>
-            <div class="name">circle</div>
+            <div class="name">circle
+
+            </div>
         </div>
     </div>
     </div>
@@ -143,35 +153,40 @@
     <div class="line"></div>
     </div>
 
+
     <div class="virtual-tryon-section">
-        <div class="virtual-header" data-aos="fade-left" data-aos-duration="1000"></div>
-        <div class="first">
-        <img class="virtual-img" src="images/virtual.png" data-aos="fade-right" data-aos-duration="1000"> 
-    <div class="vatural-text"data-aos="fade-left"   data-aos-duration="1000">Vatural Try On!
+     <div class="first">
+       <div class="virtual-header"data-aos="fade-left" data-aos-duration="1000">
+     <div class="vatural-text"data-aos-duration="1000">Vatural Try On!</div>   
+      </div>
 
-    </div>
-
-        </div>
-    <div class="vatural-paragraph">
-        Sunglasses shopping got easier!<br>Virtual Try-on lets you see how<br> shades look on your face using<br> your phone's camera.
-        No more<br>mirror hopping - find your<br> perfect pair from the comfort<br> of your couch!
+    <div class="vatural-paragraph"data-aos="fade-left">
+        <p> Sunglasses shopping got easier!<br>Virtual Try-on lets you see how<br> shades look on your face using<br> your
+            phone's camera.
+            No more<br>mirror hopping - find your<br> perfect pair from the comfort<br> of your couch!
+        </p>
     </div>
     <div class="button">
-    <button class="trynow">TRY NOW&nbsp;<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi-arrow-right"
-            viewBox="0 0 16 16">
-            <path fill-rule="evenodd"
-                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
-        </svg></button></div>
+        <button class="trynow">TRY NOW &nbsp;<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                class="bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+            </svg></button>
     </div>
-    <div class="aboutus-section" >
-        <div class="aboutus-header" data-aos="fade-left" data-aos-duration="1000"></div>
-        <div class="seconed">
-        <img src="images/aboutus.png" class="aboutusimg" data-aos="fade-right" data-aos-duration="1000">
-        <div class="aboutus-text" data-aos="fade-left" data-aos-duration="1000">ABOUT US</div>
-        </div>
-        <div class="aboutus-paragraph" data-aos="fade-down">Style that sees further. We craft <br>sunglasses that elevate your look with<br> timeless designs, all while using eco-<br>friendly
+     </div>
+      <img class="virtual-img" src="images/virtual.png"data-aos="fade-right" data-aos-duration="1000">  
+     </div>
+        
+   <div class="aboutus-section">
+        <img src="images/aboutus.png" class="aboutusimg"data-aos="fade-right" data-aos-duration="1000" >
+        
+        <div class="seconed"><div class="aboutus-header" data-aos="fade-left" data-aos-duration="1000">
+        <div class="aboutus-text"data-aos="fade-left" data-aos-duration="1000">ABOUT US</div></div>
+   
+        <div class="aboutus-paragraph"  data-aos="fade-down">Style that sees further. We craft <br>sunglasses that elevate your look with<br> timeless designs, all while using eco-<br>friendly
         materials like recycled plastic.<br>
-        Look good, feel good, see the world<br> clearly.</div>
+        Look good, feel good, see the world<br> clearly
+        .</div>
 <div class="button">
     <button class="seemore2">SEE MORE&nbsp;<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi-arrow-right"
                     viewBox="0 0 16 16">
@@ -179,7 +194,7 @@
                         d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
                 </svg></button></div>
     </div>
- 
+        </div>
     <footer>
         <div class="back-color">
 <div class="first-section">
@@ -235,4 +250,5 @@
 <script>
     AOS.init();
 </script>
+
 </html>
