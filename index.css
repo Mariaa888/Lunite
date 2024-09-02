@@ -224,7 +224,7 @@
      gap: 11vw; 
 }
 .card1{
-    margin-right: 1.3em;
+    margin-right: 1.7em;
 }
 .card4{
     margin-right: 1.7em;
@@ -282,16 +282,15 @@ margin-top: 3em;
         width: 40vw;
         margin-left: 14.7em;
         margin-top: 2em;
-}
-.virtual-img{
+}.virtual-img{
     position: absolute;
     justify-content: flex-start;
 width: 16em;
-height: 25em;
+height: 19em;
 }
 
 .vatural-text{
-    margin-left:0.6em;
+    margin-left:1em;
     margin-top: -0.4em;
     font-family: "Montaga", serif;
     font-style: normal;
@@ -313,7 +312,7 @@ height: 25em;
     font-family: "Montaga", serif;
     font-style: normal;
     font-weight: 400;   
-    font-size: 2vw;
+    font-size: 2.8vw;
 }
 
 .trynow {
