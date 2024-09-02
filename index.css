@@ -1,15 +1,15 @@
-html,
+    html,
     body {
         background-color: #F5F5F5;
         margin: 0;
         padding: 0;
         overflow-x: hidden;
+        max-width: 100%;
     }
 
     .background {
         background-image: url(images/Rectangle\ 2.png);
         height: 25em;
-        
         background-size: cover;
         object-fit: cover;
         background-repeat: no-repeat;
@@ -37,8 +37,8 @@ html,
         margin-left: 0.3em;
     }
     .right-section{
-    display: inline-flex;
-    margin-right: auto;
+    display: flex;
+    right: 1em;
     }
 
 .navbar li {
@@ -58,7 +58,6 @@ html,
     color: rgb(255, 255, 255);
 }
 .login {
-    margin-left: -2em;
     margin-right: 0.6em;
     color: #f6f6f6;
     cursor: pointer;
@@ -77,10 +76,10 @@ html,
     border: black solid 1px;
     width: 11.4em;
     height: 19px;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     margin-top: 8em;
-    margin-left: 7vw;
+    margin-left: 1vw;
     margin-right: auto;
 }
 .search input{
@@ -145,12 +144,10 @@ html,
     }
 .cursor {
             position: absolute;
-            margin-top: 4.4vh;
+            margin-top: 2.4vh;
             margin-left: 20.4vw;  
          }
-.buybycatogires-section {
-    display:block;
-}
+
 .Headclass{
     display: flex;
     justify-content: center;
@@ -160,7 +157,6 @@ html,
     width: 20em;
     height: 1.2em;
     text-align: center;
-    justify-content: center;
     margin-top: 1em;
 }
 .header-text { 
@@ -174,7 +170,6 @@ html,
         height: 150px;
         display: flex;
         justify-content: center;
-        flex: row;
         margin-top: 2em;
        gap: 1em;
        margin-left: auto;
@@ -186,7 +181,6 @@ html,
             background-color: #E2E2E2;
             border-radius: 10px;
             width: 10em;
-         
         }
 .sunglassimage,.eyeglassimage{
     width: 9.3em;
@@ -200,6 +194,7 @@ html,
     text-align: center;
 }
 .line {
+    overflow-x: hidden;
     display:flex;
     margin-top: 2em;
     border-top: 1px solid #7F807F;
@@ -217,32 +212,28 @@ html,
     font-size: 30px;
 }
 .cardcarogry1,.cardcarogry2{
-  display: inline;
-  margin-left: 1em;
-
+display: grid;
 }
 .cards{
-    margin-top: 30px;
-     display:inline-flex;
-     gap: 10rem; 
-     margin-bottom: 11em;    
-}
-.photo1 ,.photo1after  {
-    border-radius: 10px;
-    box-shadow: 0 5px 10px rgb(0, 0, 0, 25%);
-    width: 8em;
-    height: 8em;
+display: grid;
+grid-template-columns:120px 120px auto;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
 }
 
-.img img {
+.img img {  
+     border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 25%);
+    width: 7em;
+    height: 7em;
     position: absolute;
     transition: 0.3s;
 }
 .name {
-    font-size: 20px;
-    margin-top: 6.7em;
-    padding-left: 1.3em;
-    position: absolute;
+    font-size: 16px;
+    padding-top: 7.7em;
+    padding-left: 2em;
     width: 100%;
     }
 .button{
@@ -262,9 +253,6 @@ justify-content: center;
     padding: 13px 40px;
     font-size: 3vw;
 }
-.first {
-    display: block;
-}
 .virtual-tryon-section{
 display: flex;
 margin-top: 3em;
@@ -279,9 +267,8 @@ margin-top: 3em;
 }
 .virtual-img{
     position: absolute;
-    justify-content: flex-start;
 width: 16em;
-height: 19em;
+height: auto;
 }
 
 .vatural-text{
@@ -298,6 +285,7 @@ height: 19em;
     justify-content: center;
 }
 .vatural-paragraph {
+    
    justify-content: center;
    margin-left: 16em;
 
@@ -325,12 +313,13 @@ height: 19em;
     transition: all 0.2s ease-in-out;
 }
 .aboutus-section {
-display: inline-flex;
+display:flex;
     margin-top: 10em;
 
 }
 
 .aboutusimg {
+    
     position: absolute;
     justify-content: flex-start;
 width: 70vw;
@@ -439,9 +428,13 @@ footer {
 }
 .footerline {display: none;}
 @media screen and (min-width:720px) {
+    html,body{
+        overflow-x: auto;
+    }
 
 .nav {
-        width: 97vw;}
+        width: 97vw;
+    }
  
     .background{
         background-image:  url(images/Rectangle\ 42.png);
@@ -492,7 +485,6 @@ footer {
     .begining {
         margin-top: 0.5em;
     }
-
     .shopnow {
         font-size: 1.7em;
         padding: 1.5vw 4vw;
@@ -516,10 +508,10 @@ footer {
             transition: 0.19s;
    }
     .cursor {
+        margin-top: 3em;
         position: absolute;
         margin-left: 10em;
         height: 4em;
-        margin-bottom: 5em;
     }
 .headertext {
              margin-top: 3em;
@@ -562,12 +554,15 @@ footer {
 }
 .cards {
     margin-top: 50px;
-    gap:11em;
+    gap:4em;
+}
+.img img {
+    width: 9em;
+    height: 10em;
 }
 .name{
     font-size: 25px;
    padding-left: 1em;
-    margin-top: 5.7em;
 }
    .img .photo1after:hover {
        opacity: 0;
@@ -651,9 +646,9 @@ footer {
 }
 .virtual-header {
     height: 6vh;
-    width: 50vw;
+    width: 53vw;
     margin-top: 4em;
-    margin-left: 19.6em;
+    margin-left: 17.6em;
 }
 .virtual-img {
     width: 20em;
