@@ -1,197 +1,245 @@
-.background {
-    background-repeat: no-repeat;
-    position:static;
-}
+    html,
+    body {
+        background-color: #F5F5F5;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        max-width: 100%;
+    }
 
+    .background {
+        background-image: url(images/Rectangle\ 2.png);
+        height: 25em;
+        background-size: cover;
+        object-fit: cover;
+        background-repeat: no-repeat;
+         position: static;
+    }
 .nav {
-    width: 100vw;
-    height: 20%;
-    display: flex;
-    flex: row;
-    padding-top: 10px;
-    justify-content: space-between;
-}
+            width: 100%;
+            height: 20%;
+            display: grid;
+            grid-template-columns: 20vw 30vw 40vw;
+            padding-top: 10px;
+            justify-content: space-between;
+        }
 
-.logo {
-    cursor: pointer;
-    width: 100px;
-    padding-left: 1em;
-    text-align: left;
-}
+    .left-section {
+        margin-left: 1%;
+    }
 
-
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    margin-right: 3em;
-}
+    .logo {
+        cursor: pointer;
+        width: 5.4em;
+        height: 2em;;
+        text-align: left;
+        margin-top: 0.4em;
+        margin-left: 0.3em;
+    }
+    .right-section{
+    display: inline-flex;
+    margin-top: 1vw;
+    }
 
 .navbar li {
     font-family: "Montaga", serif;
     font-weight: 400;
     list-style: none;
 }
-
 .signup {
     background-color: #C39E9E;
     border: none;
     border-radius: 20px;
-    color: black;
-    padding: 0.3vw 1.6vw;
+    width: 5em;
+    height:2em;
+    margin-top: 1em;
+    cursor: pointer;
+    margin-right: 1em;
+    color: rgb(255, 255, 255);
 }
-
-.sign-up {
-    color: black;
-}
-
 .login {
+    margin-right: 0.6em;
     color: #f6f6f6;
-    font-size: 2.3;
+    cursor: pointer;
 }
-
+.navbar{
+margin-top: 1em;
+}
 .navbar a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
+.middle-section {
+    display: flex;
+  }
 .search {
-    margin-top: -30px;
     border-radius: 40px;
     background-color: #f6f6f6;
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
-    align-items: center;
-    display: inline-flex;
-    flex-direction: row;
+    border: black solid 1px;
+    width: 11.4em;
+    height: 19px;
+    display: flex;
+    justify-content: center;
+    margin-top: 8em;
+    margin-right: auto;
 }
-
-.search-input {
+.search input{
     border-style: none;
     border: none;
-    background: transparent;
-
-}
-
-.search-input::placeholder {
+    background: transparent; 
+    width: 6em;
+    padding-left: 1.4vw;
+} 
+.search input::placeholder {
     font-style: italic;
-    padding-left: 12px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
 }
-
+.search input:focus{ 
+    outline: none;
+}
 .search button {
-    width: 20px;
-    height: 40px;
+    width: 160px;
+    height: 19px;
+    position:relative;
     border: none;
     background: transparent;
+    cursor: pointer;
+    margin-left: 5em;
 }
-
 .Welcome {
-    font: 1.5em;
-    margin-left: 2%;
+    font-size: 1.4em;
+    width: 90.6vw;
     position: relative;
     color: white;
     font-weight: bold;
+    margin-left: 4vw;
     text-align: center;
     text-shadow: 0 5px 4px rgb(0, 0, 0, 25%);
     font-family: "Inter", sans-serif;
+    margin-top: 3.4em;
 }
-
+.begining{
+        display: flex;
+            justify-content: center;
+            margin-right: 1em;
+            margin-top: 1em;
+}
 .shopnow {
-    background-color: rgba(255, 255, 255, 0.57);
-    color: black;
-    font-style: normal;
-    font-family: "Montaga", serif;
-    border: none;
-    border-radius: 50px;
-    padding: 2vw 4vw;
-    display: inline-block;
-    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
-    text-align: center;
-    transition: all 0.2s ease-in-out;
-}
+        font-size: 3vw;
+        background-color: rgba(255, 255, 255, 0.57);
+            color: black;
+            font-style: normal;
+            font-family: "Montaga", serif;
+            border: none;
+            border-radius: 50px;
+            padding: 2vw 4vw;
+            box-shadow: 0 5px 4px rgba(0, 0, 0, 0.3);
+            transition: all 0.2s ease-in-out;
+    }
+.bi-arrow-right {
+        transform: translateX(-50px);
+        opacity: 0;
+        width: 30px;
+        position: absolute;
+    }
+.cursor {
+            position: absolute;
+            margin-top: 2.4vh;
+            margin-left: 20.4vw;  
+         }
 
-.headertext {
-    background-color: rgb(183, 152, 152, 37%);
-    margin-top: 6em;
-    align-items: center;
-
-}
-
-.header-text {
-    font-family: "Montaga", serif;
-    margin-top: -1em;
-    transform: translateY(-100px);
-    animation: comeFromTop 1s ease-in-out forwards;
-}
-
-.catogires {
+.Headclass{
     display: flex;
     justify-content: center;
-    margin-left: 1em;
-    max-width: 100%;
-    gap: 7em;
-
 }
-
-.Sunglass,
-.Eyglass {
-    cursor: pointer;
-    background-color: #E2E2E2;
-    border-radius: 10px;
-
+.headertext{ 
+    background-color: rgb(183, 152, 152, 37%);
+    width: 20em;
+    height: 1.2em;
+    text-align: center;
+    margin-top: 1em;
 }
-
-.sunglassimage {
-    padding-top: 1.3em;
+.header-text { 
+    position:relative;
+    font-family: "Montaga", serif;
+    font-size: 30px;
+    margin-top: -0.4em;
 }
+    .catogires {
+        width: 30vw;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        margin-top: 2em;
+       gap: 1em;
+       margin-left: auto;
+       margin-right: auto;
 
-.eyeglassimage {
-    margin-top: 0.3em;
+    }
+.Sunglass,.Eyglass {
+            cursor: pointer;
+            background-color: #E2E2E2;
+            border-radius: 10px;
+            width: 10em;
+        }
+.sunglassimage,.eyeglassimage{
+    width: 9.3em;
+    height: 5em;
+    margin-top: 1em;
 }
 .sunglasstext,
 .eyeglasstext {
+    padding-top: 0.7em;
+    font-size: 4vw;
     text-align: center;
 }
-
 .line {
-    margin-top: 20px;
+    overflow-x: hidden;
+    display:flex;
+    margin-top: 2em;
     border-top: 1px solid #7F807F;
     width: 60%;
-    margin-left: 2em;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 .best-sellers {
     font-family: "Montaga", serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: 0.3em;
+ margin-top: 1em;
     text-align: center;
+    font-size: 30px;
+}
+.cardcarogry1,.cardcarogry2{
+display: grid;
+}
+.cards{
+display: grid;
+grid-template-columns:120px 120px 120px;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
 }
 
-.cards {
-    padding-top: 30px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.img {
-    position: absolute;
-    transform: translate(-50%, -50%);
-}
-
-.photo1 .photo1after {
-    border-radius: 10px;
+.img img {  
+     border-radius: 10px;
     box-shadow: 0 5px 10px rgb(0, 0, 0, 25%);
-}
-
-.img img {
+    width: 7em;
+    height: 7em;
     position: absolute;
     transition: 0.3s;
 }
+.name {
+    font-size: 16px;
+    padding-top: 7.7em;
+    padding-left: 2em;
+    width: 100%;
+    }
+.button{
+display: flex;
+justify-content: center;
+    }
 
 .seemore {
     background-color: rgba(255, 255, 255, 57%);
@@ -201,32 +249,53 @@
     border: none;
     border-radius: 50px;
     box-shadow: 0px 0px 20px rgb(0, 0, 0, 25%);
-    margin-left:6em;
-     padding: 25px 20px;
-
+    margin-top: 3em;
+    padding: 13px 40px;
+    font-size: 3vw;
 }
-
-.first {
-    display: flex;
-    flex-direction: row;
+.virtual-tryon-section{
+display: flex;
+margin-top: 3em;
 }
-
 .virtual-header {
     background-color: rgb(183, 152, 152, 37%);
+    display: flex;
+        height:1em;
+        width: 40vw;
+        margin-left: 14.7em;
+        margin-top: 2em;
+}
+.virtual-img{
+    position: absolute;
+width: 16em;
+height: auto;
 }
 
-.vatural-text {
-    margin-left: -2px;
-    width: 100%;
+.vatural-text{
+    margin-left:1em;
+    margin-top: -0.4em;
     font-family: "Montaga", serif;
     font-style: normal;
+    font-size: 5vw;
+    justify-content: center;  
+    
 }
-
+.button{
+    display: flex;
+    justify-content: center;
+}
 .vatural-paragraph {
-    text-align: center;
+    
+   justify-content: center;
+   margin-left: 16em;
+
+}
+.vatural-paragraph p{
+  text-align: center;
     font-family: "Montaga", serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400;   
+    font-size: 2.8vw;
 }
 
 .trynow {
@@ -236,47 +305,60 @@
     font-family: "Montaga", serif;
     border: none;
     border-radius: 50px;
-    padding: 20px 15px;
-    display: flex;
+    padding: 13px 40px;
+    margin-left: 250px;
+    font-size: 3vw;
+    margin-top: 1em;
     box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
-    justify-content: center;
     transition: all 0.2s ease-in-out;
 }
-
 .aboutus-section {
-    margin-top: 20%;
-    padding-bottom: 50px;
+display:flex;
+    margin-top: 10em;
+
 }
 
 .aboutusimg {
-    margin-left: -40px;
+    
+    position: absolute;
+    justify-content: flex-start;
+width: 70vw;
+    height: 70vw;
+    margin-left: -12vw;
+   z-index: 200;
 }
 
 .seconed {
-    display: flex;
-    flex-direction: row;
+    display: block;
+    margin-top: 5em;
 }
 
 .aboutus-header {
     background-color: rgb(183, 152, 152, 37%);
-    justify-content: center;
+    height: 1em;
+        width: 19em;
+        display: flex;
+    margin-top: 1em;
+margin-left: 25vw;
 }
 
 .aboutus-text {
-    margin-left: -4em;
+    margin-top: -0.41em;
     width: 100%;
+    font-size: 6vw;
+    padding-left: 3.3vw;
     font-family: "Montaga", serif;
     font-style: normal;
-    justify-content: center;
-    display: block;
+    text-align: start;
 }
 
 .aboutus-paragraph {
     font-family: "Montaga", serif;
     font-style: normal;
-    width: 100%;
-    text-align: start;
-    display: block;
+    margin-top: 1.4em;
+    text-align:start;
+    margin-left: 40.8vw;
+    font-size: 3vw;
 }
 
 .seemore2 {
@@ -286,1025 +368,373 @@
     font-family: "Montaga", serif;
     border: none;
     border-radius: 50px;
-    padding: 10px 20px;
+    padding: 13px 40px;
+        font-size: 3vw;
     display: flex;
+    margin-top: 2em;
+    margin-left: 6em;
     box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
     justify-content: center;
     transition: all 0.2s ease-in-out;
 }
-
 footer {
-    margin-top: 40px;
-    bottom: 0;
+    margin-top: 11em;
     background-color: #DDC4C4;
-    width: max-width;
-    height: 364px;
+    height: 33vh;
     border-radius: 30px 30px 0 0;
 }
-
 .footerlogo {
+    padding-left: 20px;
+    width: 80px;
+    height: 20px;
     cursor: pointer;
 }
-
-.footerline {
-    width: 1px;
-    height: 362px;
-    background-color: rgba(217, 217, 217, 55%);
-    margin-top: -321px;
-
+.first-section{
+    display: inline-flex;
+    padding-top: 30px;
+}
+.social {
+    position: absolute;
+    right: 1px;
 }
 
+.bi {
+    margin-right: 20px;
+}
 .second-section {
+    margin-top: 20px;
     display: flex;
-    flex-direction: row;
-
 }
 
 .second-section ul {
-    font-family: "Montaga", serif;
-    font-style: normal;
-
+    font-size: 18px;
 }
 
 .second-section li {
+    font-size: 10px;
     list-style: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
     flex: row;
     font-family: "Montaga", serif;
     font-style: normal;
 }
 
-@media(max-width:600px) {
+.sun-glassli,
+.eyeglassli {
+    padding-left: 10px;
+}
 
-    html,
-    body {
-        background-color: #F5F5F5;
-        overflow-x: hidden;
-        margin: 0;
-        padding: 0;
-        width: max-content;
-        height: fit-content;
+.allli {
+    padding-left: 20px
+}
+.footerline {display: none;}
+@media screen and (min-width:720px) {
+    html,body{
+        overflow: none;
     }
 
-    .background {
-        background-image: url(images/Rectangle\ 2.png);
-        height: 25em;
-        width: 100%;
+.nav {
+        width: 97vw;
+        display: grid;
+        grid-template-columns: 30vw 40vw 30vw;   
+    }
+ 
+    .background{
+        background-image:  url(images/Rectangle\ 42.png);
         background-size: cover;
-        object-fit: cover;
-    }
-
-    .left-section {
-        margin-left: 2%;
-        width: 50vw;
+       object-fit: cover;
+       height: 100vh;
     }
 
     .logo {
-        width: 18vw;
-        height: 2vh;
+        cursor: pointer;
+        width: 10em;
+        height: 3em;
     }
 
-    .right-section {
-        margin-top: -3vw;
-    }
-
-    .sign-up {
-        font-size: 0.875em;
+    .signup {
+        width: 7em;
+        height: 2.2em;
     }
 
     .login {
-        margin-left: auto;
+        color: #f6f6f6;
+        cursor: pointer;
+        margin-right: 0.6em;
     }
-
-    .main-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 80px;
-    }
-
+  .navbar{
+    margin-top: 1.1em;
+  }
     .search {
-        width: 169px;
-        height: 19px;
-        flex: 1;
-        text-align: center;
-        margin-left: -5.3em;
+        margin-top: 1em;
+        width: 19em;
+        height: 40px;
+    }
+    .search input{
+        margin-left: 1em;
     }
 
     .search button {
-        margin-left: -10.1vw;
-        padding-top: 0.3em;
-    }
-
-    .search-input {
-        font-size: 13.2px;
-        height: 12px;
-        padding-left: 0.1em;
+        width: 20em;
+        height: 40px;
+        margin-left: 14em;
     }
 
     .Welcome {
-        width: 80%;
-        font-size: 1.25em;
-        margin-left: auto;
-        margin-right: auto;
+        font-size: 3em;
+        margin-top: 2.5em;
+        width: 78%;
+        margin-left: 10vw;
     }
 
-    .shopnow {
-        font-size: 1.25em;
-    }
-
-    .bi-arrow-right {
-        transform: translateX(-50px);
-        opacity: 0;
-        width: 30px;
-        position: absolute;
-    }
-
-    .cursor {
-        margin-bottom: -3.6em;
-        margin-left: -2.4em;
-    }
-
-    .buybycatogires-section {
-        margin-top: -5em;
-        align-items: center;
-    }
-
-    .headertext {
-        height: 19px;
-        width: 20em;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .header-text {
-        font-size: 30px;
-        text-align: center;
-    }
-
-    .catogires {
-        max-width: 100%;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        width: 15vw;
-        height: 130px;
-    }
-
-    .sunglasstext,
-    .eyeglasstext {
-        font-size: 20px;
-    }
-
-    .sunglasstext {
-        margin-top: -0.6em;
-    }
-
-    .eyeglasstext {
+    .begining {
         margin-top: 0.5em;
     }
-
-    .sunglassimage {
-        height: 86.24px;
-        width: 140px;
-    }
-
-    .eyeglassimage {
-        width: 140px;
-        margin-top: 2em;
-    }
-
-    .line {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .best-sellers {
-        font-size: 30px;
-    }
-
-    .seller-boxes {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        margin-left: -10vw;
-    }
-
-    .cards {
-        margin-top: -1em;
-        margin-bottom: 2em;
-        margin-left: auto;
-        margin-right: auto;
-        gap: 20vw;
-    }
-    .card1{
-        margin-left:5vw;
-        margin-right: 1vw;
-    }
-
- .card4 {
-        margin-right: 3vw;
-    }
-.card3
-{
-        margin-left: -4vw;
-                }
-    .photo1,
-    .photo1after {
-        width: 20vw;
-        height: 20vw;
-        border-radius: 10px;
-    }
-
-    .name {
-        margin-top: 20vw;
-        font-size: 20px;
-        margin-bottom: -2vw;
-
-    }
- 
-
-    .seemore {
-        font-size: 3vw;
-        padding: 2vw 3vw;
-        margin-left: 48vw;
-        margin-right: auto;
-        display: flex;
-        padding-left: 3vw;
-    }
-    .bi-arrow-right {
-        opacity: 0;
-        width: 40px;
-        position: absolute;
-    }
-    .virtual-img {
-        width: 50vw;
-        height: 50vw;
-    }
-    .virtual-header {
-        margin-bottom: -9vw;
-        height: 4vw;
-        width: 70vw;
-        margin-left: 7em;
-        margin-top: 20px;
-    }
-    .vatural-text {
-        font-size: 6.6vw;
-        margin-top: 2.3vw;
-        height: 30px;
-    }
-
-    .vatural-paragraph {
-        font-size: 3vw;
-        margin-top: -30vw;
-        margin-left: 13vw;
-        margin-bottom: 1vw;
-        margin-right: auto;
-        width: 100%;
-    }
-
-    .bi-arrow-right {
-        transform: translateX(-50px);
-        opacity: 0;
-        width: 40px;
-        position: absolute;
-    }
-
-    .trynow {
-        font-size: 3vw;
-        padding: 2vw 3vw;
-        margin-left: 50vw;
-        margin-right: auto;
-        display: flex;
-        padding-left: 3vw;
-    }
-
-    .aboutusimg {
-        width: 70vw;
-        height: 70vw;
-        margin-left: -12vw;
-    }
-
-    .aboutus-header {
-        margin-bottom: -15vw;
-        height: 4vw;
-        width: 60vw;
-        margin-left: 17vw;
-    }
-
-    .aboutus-text {
-        font-size: 6.6vw;
-        margin-top: 8.8vw;
-        height: 30px;
-    }
-
-    .aboutus-paragraph {
-        font-size: 3vw;
-        margin-top: -50vw;
-        margin-left: 40vw;
-        margin-bottom: 1em;
-    }
-
-    .seemore2 {
-        font-size: 3vw;
-        padding: 2vw 3vw;
-        margin-left: 50vw;
-        margin-right: auto;
-        display: flex;
-        padding-left: 3vw;
-    }
-
-    footer {
-        height: auto;
-        object-fit: cover;
-    }
-
-    .first-section {
-        justify-content: space-between;
-        display: inline-flex;
-        gap: 9vw;
-    }
-
-    .footerlogo {
-        padding-top: 30px;
-        padding-left: 20px;
-        width: 100px;
-        height: 28px;
-    }
-
-    .social {
-        margin-top: 40px;
-        margin-right: auto;
-        margin-left: 6vw;
-    }
-
-    .bi {
-        margin-right: 20px;
-    }
-
-    .footerline {
-        opacity: 0;
-    }
-
-    .second-section {
-        margin-left: 1vw;
-        display: flex;
-    }
-
-    .second-section ul {
-        font-size: 18px;
-        padding-right: 2em;
-    }
-
-    .second-section li {
-        font-size: 10px;
-    }
-
-    .sun-glassli,
-    .eyeglassli {
-        padding-left: 10px;
-    }
-
-    .allli {
-        padding-left: 20px
-    }
-}
-
-@media(min-width:601px) {
-
-    html,
-    body {
-        background-color: #F5F5F5;
-        overflow-x: hidden;
-        margin: 0;
-        padding: 0;
-        width: max-content;
-        height: auto;
-    }
-
-    .background {
-        background-image: url(images/Rectangle\ ipad.png);
-        background-size: cover;
-        height: 331px;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .left-section {
-        margin-left: 1%;
-        width: 10vw;
-    }
-
-    .logo {
-        width: 118px;
-        height: 30px;
-        margin-top: 1em;
-    }
-
-    .navbar {
-        gap: 1em;
-        margin-top: 1em;
-    }
-
-    .middle-section {
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-  .main-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-left:-8em;
-        margin-right: 1em;
-       
-     }
-
-    .search {
-        width: 250px;
-        height: 34px;
-        text-align: center;
-        margin-top: -4.2em;
-        padding-left: auto;
-    
-    }
-
-    .search button {
-        margin-left: 4em;
-        padding-top: 0.3em;
-    }
-    .Welcome {
-        width: 60%;
-        font-size: 2.25em;
-        position: relative;
-        color: white;
-        font-weight: bold;
-        text-align: center;
-        text-shadow: 0 5px 4px rgb(0, 0, 0, 25%);
-        font-family: "Inter", sans-serif;
-        margin-top: 2vw;
-        margin-left:1em;
-    }
-
     .shopnow {
-        margin-left: 9vw;
-        font-size: 30px;
-        padding: 10px 20px;
-        padding-left: 30px;
+        font-size: 1.7em;
+        padding: 1.5vw 4vw;
     }
-
-    .bi-arrow-right {
-        transform: translateX(-50px);
-        opacity: 0;
-        width: 30px;
-        position: absolute;
-    }
-
-    .cursor {
-        margin-bottom: -3.6em;
-        margin-left: -2.4em;
-    }
-    .buybycatogires-section {
-        margin-top: -2em;
-        align-items: center;
-    }
-
-    .headertext {
-        height: 31px;
-        width: 602px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .header-text {
-        font-size: 50px;
-        text-align: center;
-    }
-
-    .catogires {
-        max-width: 100%;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        width: 259.57px;
-        height: 220.64px;
-    }
-
-    .sunglasstext,
-    .eyeglasstext {
-        margin-top: 1em;
-        font-size: 20px;
-    }
-
-    .sunglassimage {
-        width: 170.19px;
-        height: 109.82px;
-        margin-top: 1em;
-    }
-    .eyeglassimage {
-        margin-top: 2em;
-        width: 180.19px;
-        height: 115.41px;
-    }
-
-    .line {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .best-sellers {
-        font-size: 80px;
-    }
-
-    .cards {
-        margin-bottom: 3em;
-        gap: 20vw;
-        margin-right: 13%;
-        margin-left: auto;
-
-    }
-
-    .card1 {
-        margin-left: auto;
-    }
-
-    .card3 {
-        margin-left: -2.7em;
-        margin-right: auto;
-    }
-
-    .card4 {
-      margin-left: -2.7em;
-        padding-right: 1.6em;
-    }
-
-    .photo1,
-    .photo1after {
-        width: 183.09px;
-        height: 184.36px;
-        border-radius: 30px;
-    }
-
-    .name {
-        font-size: 40px;
-        margin-top: 5em;
-        margin-right: auto;
-    }
-
-    .seemore {
-        font-size: 30px;
-        padding: 2px 15px;
-        margin-left: 9em;
-        margin-right: auto;
-        display: flex;
-        padding-left: 1em;
-    }
-
-    .bi-arrow-right {
-        opacity: 0;
-        position: absolute;
-    }
-
-    .virtual-img {
-        width: 40vw;
-        height: 50.18vw;
-        margin-left: -2em;
-    }
-
-    .virtual-header {
-        margin-bottom: -10.3vw;
-        height: 4.4vw;
-        width: 58vw;
-        margin-left: 33vw;
-        margin-top: 4vw;
-    }
-
-    .vatural-text {
-        font-size: 8vw;
-        margin-top: 2.7vw;
-        height: 30px;
-    }
-
-    .vatural-paragraph {
-        font-size: 3.5vw;
-        margin-top: -35vw;
-        margin-left: 40vw;
-        margin-bottom: 1em;
-        width: 100%;
-        display: flex;
-    }
-
-    .bi-arrow-right {
-        opacity: 0;
-    }
-
-    .trynow {
-        font-size: 30px;
-        padding: 2px 15px;
-        margin-left: 50vw;
-        margin-right: auto;
-        display: flex;
-        padding-left: 15px;
-    }
-
-    .aboutus-section {
-        margin-top: 10em;
-    }
-
-    .aboutusimg {
-        width: 96vw;
-        height: 40vw;
-    }
-
-    .aboutus-header {
-        margin-bottom: -12vw;
-        height: 4vw;
-        width: 46vw;
-        margin-left: 20vw;
-    }
-
-    .aboutus-text {
-        font-size: 6vw;
-        margin-top: 6vw;
-        height: 30px;
-        margin-left: -25vw;
-
-    }
-
-    .aboutus-paragraph {
-        margin-top: -25vw;
-        margin-left: 42.8vw;
-        margin-bottom: 1em;
-    }
-
-    .seemore2 {
-        font-size: 30px;
-        padding: 2px 15px;
-        margin-left: 42vw;
-        margin-right: auto;
-        display: flex;
-        padding-left: 17px;
-    }
-
-    footer {
-        height: auto;
-    }
-
-    .first-section {
-        display: block;
-
-    }
-
-    .footerlogo {
-        padding-top: 30px;
-        padding-left: 40px;
-        width: 100px;
-        height: 28px;
-    }
-
-    .social {
-        margin-right: auto;
-        margin-top: 11em;
-        margin-left: 6.667vw;
-    }
-
-    .bi {
-        margin-right: 20px;
-    }
-
-    .footerline {
-        width: 1px;
-        height: 268px;
-        background-color: rgba(217, 217, 217, 55%);
-        margin-left: 250px;
-        margin-top: -16em;
-    }
-
-    .second-section {
-        justify-content: flex-end;
-        padding-right: 1em;
-
-    }
-
-    .second-section ul {
-        font-size: 18px;
-        padding-right: 2em;
-        margin-top: -14em;
-    }
-
-    .second-section li {
-        font-size: 10px;
-    }
-
-    .sun-glassli,
-    .eyeglassli {
-        padding-left: 10px;
-    }
-
-    .allli {
-        padding-left: 20px
-    }
-}
-
-@media (min-width:1024px){
-    .buybycatogires-section {
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            margin-left: -11em;
-        }
-
-        .sunglassimage {
-            width: 200.19px;
-            height: 109.82px;
-            margin-top: 1em;
-        }
-    
-        .eyeglassimage {
-            margin-top: 2em;
-            width: 206.19px;
-            height: 115.41px;
-        }
-        .line {
-            margin-left: auto;
-        }
-    
-    
-        .main-content {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-          
-        }
-    
-        .search {
-            margin-left: 5em;
-            width: 40vw;
-            height: 34px;
-            text-align: center;
-            margin-top: -8.2em;
-            margin-right: 5em;
-        }
-    
-        .search button {
-            margin-left: 24vw;
-            padding-top: 0.3em;
-        }
-    
-    
-        .shopnow {
-            margin-left: -2em;
-            font-size: 30px;
-            padding: 10px 20px;
-            padding-left: 20px;
-        }
-    
-        .cards {
-            margin-bottom: 3em;
-            gap: 8em;
-            margin-right: auto;
-        }
-    
-        .card1 {
-            margin-left: auto;
-        }
-    
-        .card3 {
-            margin-left: -2.7em;
-            margin-right: auto;
-        }
-    
-        .card4 {
-            padding-right: 1.3em;
-        }
-    
-        .photo1,
-        .photo1after {
-            width: 183.09px;
-            height: 184.36px;
-            border-radius: 30px;
-        }
-    
-        .name {
-            font-size: 40px;
-            margin-top: 5em;
-            margin-right: auto;
-        }
-    
-        .background {
-            background-size: cover;
-            height: 490px;
-            width: 100%;
-            object-fit: fill;
-    
-        }
-    
-        .Welcome {
-            font-size: 70px;
-            width: 80%;
-            margin-top: 0.3em;
-            margin-left: -1em;
-        }
-    
-        .img .photo1after:hover {
-            opacity: 0;
-            cursor: pointer;
-        }
-    
-        .virtual-img {
-            width: 520.98px;
-            height: 720.51px;
-        }
-    
-        .virtual-header {
-            margin-bottom: -11.7vw;
-            height: 4vw;
-            width: 700px;
-            margin-left: 30em;
-            margin-top: 6vw;
-        }
-    
-        .vatural-text {
-            font-size: 7vw;
-            width: 100%;
-            margin-top: 5vw;
-        }
-    
-        .shopnow,
-        .seemore,
-        .trynow,
-        .seemore2 {
-            font-size: 40px;
-            padding: 16px 40px;
-            display: inline;
-            padding-left: 60px;
-            box-shadow: 0 5px 4px rgb(0, 0, 0, 25%);
-            margin-top: 1em;
-        }
-    
-        .seemore {
-            margin-left: 13em;
-        }
-    
-        .trynow {
-            margin-left: 14em;
-        }
-    
         .shopnow .bi-arrow-right {
-            transform: translateX(-50px);
-            opacity: 0;
-            width: 40px;
-            position: absolute;
-        }
-    
-        .bi-arrow-right {
-            padding: 6px;
-        }
-    
+             transform: translateX(-50px);
+             opacity: 0;
+             width: 25px;
+             height: 1em;
+         }
+         .bi-arrow-right{
+           padding:6px;
+         }
         .shopnow:hover {
-            padding: 16px 60px;
-            transition: 0.19s;
+        padding: 1.5vw 4.6vw;
         }
-    
-        .shopnow:hover .bi-arrow-right {
+   .shopnow:hover .bi-arrow-right {
             opacity: 1;
             transform: translateX(0);
             position: absolute;
-        }
-    
-        .cursor {
-            margin-top: -1.6em;
-            margin-left: -3.4em;
-        }
-    
-        .button {
-            display: flex;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    
-        .seemore .bi-arrow-right {
-    
-            transform: translateX(-50px);
-            opacity: 0;
-            width: 40px;
-            position: absolute;
-        }
-    
-        .bi-arrow-right {
-            padding: 6px;
-        }
-    
-        .seemore:hover {
-            padding: 16px 60px;
             transition: 0.19s;
-        }
+   }
+    .cursor {
+        margin-top: 3em;
+        position: absolute;
+        margin-left: 10em;
+        height: 4em;
+    }
+.headertext {
+             margin-top: 3em;
+             width: 30em;
+             height: 1.6em;
+         }
+.header-text {
+             font-size: 40px;
+             margin-top: -0.4em;
+         }
     
-        .seemore:hover .bi-arrow-right {
-            opacity: 1;
-            transform: translateX(0);
-            position: absolute;
-    
-        }
-    
-        .trynow .bi-arrow-right {
-            transform: translateX(-50px);
-            opacity: 0;
-            width: 40px;
-            position: absolute;
-        }
-    
-        .bi-arrow-right {
-            padding: 6px;
-        }
-    
-        .trynow:hover {
-            padding: 16px 60px;
-            transition: 0.19s;
-        }
-    
-        .trynow:hover .bi-arrow-right {
-            opacity: 1;
-            transform: translateX(0);
-            position: absolute;
-    
-        }
-    
-        .seemore2 .bi-arrow-right {
-            transform: translateX(-50px);
-            opacity: 0;
-            width: 40px;
-            position: absolute;
-        }
-    
-        .bi-arrow-right {
-            padding: 6px;
-        }
-    
-        .seemore2:hover {
-            padding: 16px 60px;
-            transition: 0.19s;
-        }
-    
-        .seemore2:hover .bi-arrow-right {
-            opacity: 1;
-            transform: translateX(0);
-            position: absolute;
-        }
-    
-        .vatural-paragraph {
-            font-size: 30px;
-            margin-top: -18.4em;
-            margin-left: 17em;
-            margin-bottom: 1em;
-            margin-right: 1%;
-        }
-    
-        .aboutus-section {
-            margin-top: 15em;
-        }
-    
-        .aboutusimg {
-            width: 487px;
-            height: 458px;
-        }
-    
-        .aboutus-header {
-            margin-bottom: -7em;
-            height: 56px;
-            width: 595px;
-            margin-left: 10em;
-        }
-    
-        .aboutus-text {
-            font-size: 100px;
-            margin-top: 0.2em;
-            height: 30px;
-            margin-left: -2.2em;
-    
-        }
-    
-        .aboutus-paragraph {
-            font-size: 30px;
-            margin-top: -9.4em;
-            margin-left: 11em;
-            margin-bottom: 1em;
-            margin-right: 1%;
-        }
-    
-        .seemore2 {
-            margin-left: 11em;
-        }
-      .second-section{
-           margin-right:30vw;
-        }
+.catogires {
+             height: 200px;
+             margin-top: 3em;
+             gap: 1.7em;
+         }
+.Sunglass,
+.Eyglass{
+     width: 30em;
+}
+.sunglassimage,
+.eyeglassimage {
+     width: 14em;
+     margin-top: 3em;
+     margin-left: 1em;
+}
+.sunglasstext,
+.eyeglasstext {
+   padding-top: 1em;
+   font-size: 25px;
+   font-weight: bold;
+   text-align: center;
+         }
+.eyeglasstext{
+    padding-top: 1.3em;
 }
 
+.line {
+    margin-top: 3em;
+}
+.cards {
+    margin-top: 50px;
+    gap:4em;
+}
+.img img {
+    width: 9em;
+    height: 10em;
+}
+.name{
+    font-size: 25px;
+   padding-left: 1em;
+}
+   .img .photo1after:hover {
+       opacity: 0;
+       cursor: pointer;
+   }
+.best-sellers {
+    margin-top:2em;
+    font-size: 30px;
+}
+.seemore {
+    font-size: 25px;
+    padding: 16px 60px;
+}
+.seemore .bi-arrow-right {
+    transform: translateX(-50px);
+    opacity: 0;
+    width: 40px;
+    height: 1em;
+    position: absolute;
+}
+.seemore:hover {
+    padding: 16px 65px;
+}
+.seemore:hover .bi-arrow-right {
+        opacity: 1;
+        transform: translateX(0);
+        position: absolute;
+        transition: 0.19s;
+}
+.trynow .bi-arrow-right {
+    transform: translateX(0);
+    opacity: 0;
+    width: 25px;
+    height: 1em;
+    position: absolute;
+}
+.bi-arrow-right {
+    padding: 6px;
+}
+.trynow,.seemore2{
+    font-size: 25px;
+    padding: 16px 60px;
+}
+.trynow:hover {
+    padding: 16px 65px;   
+}
+.trynow:hover .bi-arrow-right {
+    opacity: 1;
+    transform: translateX(-50);
+    position: absolute;
+    transition: 0.19s;
+}
+.bi-arrow-right {
+    padding: 6px;
+}
+.seemore2{
+    margin-left: 27vw;
+}
+.seemore2 .bi-arrow-right {
+    transform: translateX(0);
+    opacity: 0;
+    width: 25px;
+    position: absolute;
+    padding-left: 160px;
+}
+.seemore2:hover {
+    padding: 16px 65px;
+    transition: 0.19s;
+}
+.seemore2:hover .bi-arrow-right {
+    opacity: 1;
+    transform: translateX(0);
+    position: absolute;
+}
+.virtual-tryon-section{
+    margin-left: 2em;
+}
+.first{
+    display: grid;
+    grid-column: auto;
+}
+.virtual-header {
+    height: 6vh;
+    width: 53vw;
+    margin-top: 4em;
+    margin-left: 17.6em;
+}
+.virtual-img {
+    width: 20em;
+    height: 27em;      
+}
+.vatural-text {
+ margin-top:-0.3em;
+    font-size: 3em;
+   
+}
+.vatural-paragraph p {
+    font-size: 2.5vw;
+    margin-left: 0.5em;
+}
+.aboutus-section {
+    margin-top: 8em;
+}
+
+.aboutusimg {
+    width: 30em;
+    height: 37em;
+    margin-left: 0;
+}
+
+.seconed {
+    margin-left: 9.2em;
+    margin-top: 5em;
+}
+
+.aboutus-header {
+    height: 5vh;
+    width: 49vw;
+margin-left: 2.2em;}
+
+.aboutus-text {
+    font-size: 3em;
+    width: 100%;
+margin-top: -0.4em;
+    margin-left: 7.3vw;
+}
+
+.aboutus-paragraph {
+
+    font-size: 2.5vw;
+    margin-left: 20vw;
+}
+
+.first-section {
+    justify-content: space-between;
+    display: inline-flex;
+    gap: 9vw;
+}
+
+.footerlogo {
+   width: 100px;
+    height: 28px;
+}
+
+.social {
+    margin-top: 120px;
+    left: 2vw;
+}
+
+.footerline {
+    display: flex;
+    margin-left: 30vw;
+    width: 1px;
+    height: 188px;
+    margin-top: -10.6vh;
+    background-color: rgba(217, 217, 217, 55%);
+}
+
+.second-section {position: absolute;
+    right: 10vw;
+    margin-top: -190px;
+}
+
+.second-section ul {
+    font-size: 20px;
+}
+
+.second-section li {
+    font-size: 15px;
+}
+    }
