@@ -49,9 +49,9 @@
 .signup {
     background-color: #C39E9E;
     border: none;
-    border-radius: 20px;
-    width: 5em; 
-    width: 8em;
+    border-radius: 20px; 
+    width: 6em;
+    height: 2em;
     margin-top: 1em;
     cursor: pointer;
     margin-right: 1em;
