@@ -50,8 +50,8 @@
     background-color: #C39E9E;
     border: none;
     border-radius: 20px;
-    width: 5em;
-    height:2em;
+    width: 5em; 
+    width: 8em;
     margin-top: 1em;
     cursor: pointer;
     margin-right: 1em;
@@ -61,6 +61,7 @@
     margin-right: 0.6em;
     color: #f6f6f6;
     cursor: pointer;
+    margin-left: -3em;
 }
 .navbar{
 margin-top: 1em;
@@ -435,9 +436,11 @@ footer {
 .nav {
         width: 97vw;
         display: grid;
-        grid-template-columns: 30vw 40vw 30vw;   
+
+        grid-template-columns: 33vw 44vw 30vw;   
     }
  
+    
     .background{
         background-image:  url(images/Rectangle\ 42.png);
         background-size: cover;
@@ -449,6 +452,7 @@ footer {
         cursor: pointer;
         width: 10em;
         height: 3em;
+        margin-left: 2em;
     }
 
     .signup {
